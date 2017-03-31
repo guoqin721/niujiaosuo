@@ -1,0 +1,156 @@
+@import "base.less";
+body{
+  background: #fff;
+}
+h2{
+  font-size: 0.26rem;
+  font-weight: 700;
+  margin:0.4rem 0 0.2rem;
+}
+h3{
+  .mt(0.3rem);
+  line-height: 0.4rem;
+  font-size: 0.24rem;
+  font-weight: 300;
+}
+.colorYellow{
+  color:#A77D61;
+}
+.font-weight{
+  font-weight: 700;
+}
+.margin-left18{
+  .ml(0.18rem);
+}
+.title{
+  background: #F2F2F2;
+  width: 100%;
+  .hc(0.75rem);
+  font-size: 0.18rem;
+  .bz-bb();
+  .pl(0.35rem);
+  font-size: 0.28rem;
+  font-weight:  500;
+}
+p{
+  line-height: 0.4rem;
+}
+.border-bottom{
+  border-bottom: 1px solid #F2F2F2;
+  .pb(0.3rem);
+  .mt(0.3rem);
+  .mr(-0.35rem);
+}
+section{
+  border-bottom: 1px solid #F2F2F2;
+  padding:0.30rem 0.35rem 0.4rem;
+  display: flex;
+  .left{
+    width:0.79rem;
+    i{
+      display:inline-block;
+      .wh(0.52rem,1.06rem);
+      line-height: 1.06rem;
+      .mr(0.27rem);
+      font-weight: 500;
+      font-size: 0.68rem;
+    }
+  }
+  .right{
+    flex:1;
+    h1{
+      .hc(0.82rem);
+      font-size: 0.32rem;
+    }
+    .accounts-message{
+      .mt(0);
+      li{
+        overflow: hidden;
+        .hc(0.4rem);
+        .li-name{
+          width: 1.2rem;
+          text-align: justify;
+          text-align-last: justify;
+          display: inline-block;
+          &:after{
+            display: inline-block;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            content: '';
+            vertical-align: top;
+          }
+        }
+        .li-desc{
+          a{
+            color: #666;
+          }
+        }
+      }
+    }
+
+    .bank{
+      border: 1px solid #F2F2F2;
+      padding:0.15rem 0.15rem;
+      .mb(0.3rem);
+      li{
+        line-height: 0.4rem;
+        height: auto;
+        display: flex;
+      }
+      .item-name{
+        color:#A77D61;
+        width:1.1rem;
+        padding:0 0.05rem;
+      }
+      .item-desc{
+        flex:1;
+        i{
+          display: inline-block;
+          .wh(0.25rem,0.2rem);
+          background: url(../img/warning_small.png) no-repeat 0.05rem center;
+          background-size: 0.2rem 0.2rem;
+        }
+      }
+    }
+    .question{
+      position: relative;
+      .pl(0.32rem);
+      i{
+        position: absolute;
+        top:0.08rem;
+        left:-0.13rem;
+        .wh(0.26rem,0.26rem);
+        background: url(../img/warning_big.png) no-repeat 0rem center;
+        background-size: 0.26rem 0.26rem;
+      }
+    }
+    .alter-bank{
+      display: flex;
+      flex-direction: row;
+      .mr(0.35rem);
+      li{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        p{
+          display: flex;
+          justify-content: center;
+        }
+        img{
+          .wh(0.65rem,0.7rem);
+          margin:0.15rem auto;
+        }
+      }
+    }
+  }
+}
+footer{
+}
+.tel{
+  .mt(0.35rem);
+  display: inline-block;
+  text-align: center;
+  width:100%;
+  .hc(0.4rem);
+}

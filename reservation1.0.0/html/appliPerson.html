@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title></title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.min.js" charset="utf-8"></script>
+  <script src="../js/common.js" charset="utf-8"></script>
+  <script src="../js/appliPerson.js" charset="utf-8"></script>
+</head>
+<body>
+  <section class="guarantee">
+    <section class="guar-content">
+      <header class="guar-header">
+        <a href="javascript:;" class="back-btn" onClick="javascript :history.back(-1);"><img src="../img/back.png"></a>
+        <div class="header-title">
+          投保人资料
+        </div>
+        <a href = "./appliStaff.html" class="next-btn">下一步</a>
+      </header>
+      <div class="guar-tip insurPer-tip">
+        投保人：保单持有人，拥有保单所有权。可随时更改该保单受益人。
+      </div>
+      <form class="guar-form" action="" method="post" >
+        <ul>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt" >姓名</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="输入姓名">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">拼音</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="输入姓名拼音">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">出生日期</div>
+            <!-- <input type="date" class="guar-info-right frt" value="" placeholder="请选择"> -->
+            <input placeholder="请选择" class="guar-info-right frt" type="text" onfocus="(this.type='date')">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">性别</div>
+            <select  class="guar-info-right select frt guar-sex" required>
+              <option value="" disabled selected hidden>请选择</option>
+              <option value="男">男</option>
+              <option value="女">女</option>
+            </select>
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">国籍</div>
+            <select id="nationSelect"  class="guar-info-right select frt" required>
+              <option id="nationOption" value=""></option>
+            </select>
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">是否吸烟</div>
+            <select  class="guar-info-right select guar-smoke frt" required>
+              <option value="" disabled selected hidden>请选择</option>
+              <option value="是">是</option>
+              <option value="否">否</option>
+            </select>
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt" >身高(cm)</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="0">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">体重(kg)</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="0">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">身份证号码</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">婚姻状况</div>
+            <select  class="guar-info-right select guar-marry frt" required>
+              <option value="" disabled selected hidden>请选择</option>
+              <option value="单身">单身</option>
+              <option value="已婚">已婚</option>
+              <option value="离婚">离婚</option>
+              <option value="丧偶">丧偶</option>
+            </select>
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">投保人联系电话</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">电子邮箱</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">证件类型</div>
+            <select  class="guar-info-right select  certificate frt" required>
+              <option value="" disabled selected hidden>请选择</option>
+              <option value="通行证">通行证</option>
+              <option value="护照">护照</option>
+            </select>
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">证件号码</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">证件到期时间</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请选择">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left education flt">教育程度</div>
+            <select  class="guar-info-right select guar-certif-type frt" required>
+              <option value="" disabled selected hidden>请选择</option>
+              <option value="小学及以下">小学及以下</option>
+              <option value="中学">中学</option>
+              <option value="本科">本科</option>
+              <option value="硕士">硕士</option>
+              <option value="博士">博士</option>
+            </select>
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">与受保人关系</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+          <li class="guar-info-li liPart heightAuto">
+            <div class="guar-info-left">身份证地址</div>
+            <textarea class="guar-info-right"   placeholder="请输入"></textarea>
+          </li>
+          <li class="guar-info-li liPart heightAuto clr">
+            <div class="guar-info-left flt">保单邮寄地址是否为身份证地址？</div>
+          </li>
+          <li class="guar-info-li bTNone clr">
+            <label class="IDadressY own  appli-box flt samePerson"  for="samePersonY"><input type="radio" name="samePerson" checked="checked"  class="IDadressY IDadress" value="IDadressY" id="samePersonY" ><i>是</i></label>
+            <label class="IDadressN other  appli-box frt samePerson"  for="samePersonN"><input type="radio" name="samePerson" class="IDadressN IDadress" id="samePersonN" value="IDadressN"><i>否</i></label>
+          </li>
+          <li class="guar-info-li  liPart heightAuto" id="postIDadress">
+            <div class="guar-info-left">保单邮寄地址</div>
+            <textarea class="guar-info-right"   placeholder="请输入"></textarea>
+          </li>
+          <li class="guar-info-li liPart heightAuto clr">
+            <div class="guar-info-left flt">是否为美国公民或纳税居民？</div>
+          </li>
+          <li class="guar-info-li bTNone clr">
+            <label class="own appli-box flt America"  for="AmericaY"><input type="radio" name="America" class="own" value="是" id="AmericaY" ><i>是</i></label>
+            <label class="other appli-box frt America"  for="AmericaN"><input type="radio" name="America" checked="checked" class="other" id="AmericaN" value="否"><i>否</i></label>
+          </li>
+          <li class="guar-info-li liPart heightAuto clr">
+            <div class="guar-info-left flt">投保人是否投保过(包括申请中)其他的香港保险产品？</div>
+          </li>
+          <li class="guar-info-li bTNone clr">
+            <label class="own appli-box flt "  for="otherInsuranceY"><input type="radio" name="otherInsurance" class="own otherInsurance" value="Y" id="otherInsuranceY" ><i>是</i></label>
+            <label class="other appli-box frt "  for="otherInsuranceN"><input type="radio" name="otherInsurance" checked="checked"  class="other otherInsurance" id="otherInsuranceN" value="N"><i>否</i></label>
+          </li>
+          <li class="guar-info-li othInsurCont liPart clr">
+            <div class="guar-info-left flt">注明曾投保产品详情：</div>
+          </li>
+          <li class="guar-info-li othInsurCont clr">
+            <div class="guar-info-left flt" >所投保险公司</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+          <li class="guar-info-li othInsurCont clr">
+            <div class="guar-info-left flt">保险产品类型</div>
+            <select  class="guar-info-right select guar-certif-type frt" required>
+              <option value="" disabled selected hidden>请选择</option>
+              <option value="小学及以下">人寿保险</option>
+              <option value="中学">严重疾病保险</option>
+              <option value="本科">个人意外保险</option>
+              <option value="硕士">医疗/住院保险</option>
+              <option value="博士">伤病入息保险</option>
+            </select>
+          </li>
+          <li class="guar-info-li clr othInsurCont">
+            <div class="guar-info-left flt">保险计划名称</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+          <li class="guar-info-li clr othInsurCont">
+            <div class="guar-info-left flt">保单生效年月</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请选择">
+          </li>
+          <li class="guar-info-li clr othInsurCont" style="padding-bottom:0.4rem">
+            <div class="guar-info-left flt">年缴保费金额</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+        </ul>
+      </form>
+    </section>
+  </section>
+</body>
+</html>

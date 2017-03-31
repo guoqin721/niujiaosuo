@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>银行转账订单信息</title>
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/common.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var region = $('#region').val();
+      var bank = $('#bank').val();
+      var money = $('.money').val();
+      var currency = $('.radio input:checked').val();
+      //币种的选择
+      $('.radio input').on('change', function() {
+        currency = $('.radio input:checked').val();
+      });
+      //银行选择
+      $('#bank').on('change', function() {
+        bank = $('#bank').val();
+      });
+      //内外地银行选择
+      $('#region').on('change', function() {
+        region = $('#region').val();
+        if ( region == 'ch' ) {
+          $('.bank-box').css('display','block');
+        } else {
+          $('.bank-box').css('display','none');
+        }
+      });
+      // $('.money').focus(function(event) {
+      //   $('#submit').addClass('footer-submit');
+      // });
+      // $('.money').focusout(function(event) {
+      //   $('#submit').removeClass('footer-submit');
+      // });
+      //金额合理性判断
+      $('.money').on('change', function() {
+        money = $('.money').val();
+        if (isNaN(money)) {
+          //运行
+          var dd = waiting("请输入有效数字！");
+          //自杀
+          setTimeout(function () {
+            dd();
+          }, 3000);
+        } else if ( money == "") {
+          //运行
+          var dd = waiting("请输入汇款金额！");
+          //自杀
+          setTimeout(function () {
+            dd();
+          }, 3000);
+        } else {
+          money = parseFloat(money).toFixed(2);
+          $('.money').val(money);
+        }
+      });
+      //摸态框的开合
+      $('#submit').click(function() {
+        money = $('.money').val();
+        if (isNaN(money)) {
+          //运行
+          var dd = waiting("请输入有效数字！");
+          //自杀
+          setTimeout(function () {
+            dd();
+          }, 3000);
+        } else if ( money == "") {
+          //运行
+          var dd = waiting("请输入汇款金额！");
+          //自杀
+          setTimeout(function () {
+            dd();
+          }, 3000);
+        } else {
+          money = parseFloat(money).toFixed(2);
+          $('.money').val(money);
+          $('.modals').css('display','block');
+          $.ajax({
+            type:"post",
+            url:"",
+            dataType:"JSONP",
+            data:"selectText="+inp,
+            success:function  (data) {
+              
+            }
+
+          });
+        }
+      });
+      $('.close').click(function() {
+        $('.modals').css('display','none');
+      });
+    });
+  </script>
+</head>
+<body>
+  <section class="content">
+    <p class="colorYellow remind">
+      完成转账充值后，请您耐心等待系统消息提醒。
+    </p>
+    <p class="colorYellow remind">
+      网银或支付宝转账一般需要1-3个工作日到账。
+    </p>
+    <p class="colorYellow remind mt15">
+      您可以在线通知客服您已汇款，请回答以下两个问题。
+    </p>
+    <p class="question">您是通过哪种途径完成的汇款？</p>
+    <div class="shadow-bg">
+      <select name="" id="region">
+        <option value="hk">香港银行</option>
+        <option value="ch">中国内地银行</option>
+        <option value="other">其他国家／地区银行</option>
+        <option value="alipay">上银汇款</option>
+      </select>
+    </div>
+    <div class="shadow-bg mt15 bank-box">
+      <select name="" id="bank">
+        <option value="ICBC">中国银行</option>
+        <option value="BOC">中国工商银行</option>
+        <option value="CCB">中国建设银行</option>
+        <option value="CEB">中国光大银行</option>
+      </select>
+    </div>
+    <p class="currency">请选择您的交易币种</p>
+    <div class="mt15" style="padding-left:0.24rem;">
+      <label class="radio"  for="RMB"><input type="radio" name="currency" class="currency" value="RMB" id="RMB" checked="checked"><i></i>人民币</label>
+      <label class="radio"  for="dollar"><input type="radio" name="currency" class="currency" id="dollar" value="dollar"><i></i>美元</label>
+    </div>
+    <p class="question">您的汇款金额是？</p>
+    <div class="shadow-bg mt15">
+      <!-- <i class="dollar">$</i>--><input type="text" name="" value="" placeholder="输入您的汇款金额" class="money">
+    </div>
+    <p class="tip colorYellow">* 相同信息提交一次即可，请勿重复提交。</p>
+  </section>
+  <footer  id="submit">
+    提交汇款信息
+  </footer>
+  <section class="modals">
+    <div class="submit">
+      <p class="title colorYellow">提交成功！</p>
+      <p style="margin-top:0.2rem;">客服已经收到您的转账信息啦！</p>
+      <p>网银转账一般1-3个工作日到账请耐心等待哟！</p>
+      <a href="tel:4000665598" class="tel">我要电话催一催</a>
+      <i class="close"></i>
+    </div>
+  </section>
+</body>
+</html>

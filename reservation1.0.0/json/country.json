@@ -1,0 +1,1605 @@
+[
+	{
+	  "code": "86",
+	  "en": "China",
+	  "key": "CN",
+	  "cn": "中国",
+	  "py": "zhong guo"
+	},
+	{
+	  "code": "1",
+	  "en": "United States of America",
+	  "key": "US",
+	  "cn": "美国",
+	  "py": "mei guo"
+	},
+	{
+	  "code": "44",
+	  "en": "United Kiongdom",
+	  "key": "GB",
+	  "cn": "英国",
+	  "py": "ying guo"
+	},
+	{
+	  "code": "49",
+	  "en": "Germany",
+	  "key": "DE",
+	  "cn": "德国",
+	  "py": "de guo"
+	},
+	{
+	  "code": "65",
+	  "en": "Singapore",
+	  "key": "SG",
+	  "cn": "新加坡",
+	  "py": "xin jia po"
+	},
+	{
+		"code": "1",
+		"en": "Canada",
+		"key": "CA",
+		"cn": "加拿大",
+		"py": "jia na da"
+	},
+	{
+	  "code": "81",
+	  "en": "Japan",
+	  "key": "JP",
+	  "cn": "日本",
+	  "py": "ri ben"
+	},
+	{
+	  "code": "93",
+	  "en": "Afghanistan",
+	  "key": "AF",
+	  "cn": "阿富汗",
+	  "py": "a fu han"
+	},
+	{
+	  "code": "355",
+	  "en": "Albania",
+	  "key": "AL",
+	  "cn": "阿尔巴尼亚",
+	  "py": "a er ba ni ya"
+	},
+	{
+	  "code": "213",
+	  "en": "Algeria",
+	  "key": "DZ",
+	  "cn": "阿尔及利亚",
+	  "py": "a er ji li ya"
+	},
+	{
+	  "code": "1684",
+	  "en": "American Samoa",
+	  "key": "AS",
+	  "cn": "美属萨摩亚",
+	  "py": "mei shu sa mo ya"
+	},
+	{
+	  "code": "376",
+	  "en": "Andorra",
+	  "key": "AD",
+	  "cn": "安道尔共和国",
+	  "py": "an dao er gong he guo"
+	},
+	{
+	  "code": "244",
+	  "en": "Angola",
+	  "key": "AO",
+	  "cn": "安哥拉",
+	  "py": "an ge la"
+	},
+	{
+	  "code": "1264",
+	  "en": "Anguilla",
+	  "key": "AI",
+	  "cn": "安圭拉岛",
+	  "py": "an gui la dao"
+	},
+	{
+	  "code": "672",
+	  "en": "Antarctica",
+	  "key": "AQ",
+	  "cn": "南极洲",
+	  "py": "nan ji zhou"
+	},
+	{
+	  "code": "1268",
+	  "en": "Antigua and Barbuda",
+	  "key": "AG",
+	  "cn": "安提瓜和巴布达",
+	  "py": "an ti gua he ba bu da"
+	},
+	{
+	  "code": "54",
+	  "en": "Argentina",
+	  "key": "AR",
+	  "cn": "阿根廷",
+	  "py": "a gen ting"
+	},
+	{
+	  "code": "374",
+	  "en": "Armenia",
+	  "key": "AM",
+	  "cn": "亚美尼亚",
+	  "py": "ya mei ni ya"
+	},
+	{
+	  "code": "297",
+	  "en": "Aruba",
+	  "key": "AW",
+	  "cn": "阿鲁巴",
+	  "py": "a lu ba"
+	},
+	{
+	  "code": "61",
+	  "en": "Australia",
+	  "key": "AU",
+	  "cn": "澳大利亚",
+	  "py": "ao da li ya"
+	},
+	{
+	  "code": "43",
+	  "en": "Austria",
+	  "key": "AT",
+	  "cn": "奥地利",
+	  "py": "ao de li"
+	},
+	{
+	  "code": "994",
+	  "en": "Azerbaijan",
+	  "key": "AZ",
+	  "cn": "阿塞拜疆",
+	  "py": "a sai bai jiang"
+	},
+	{
+	  "code": "1242",
+	  "en": "Bahamas",
+	  "key": "BS",
+	  "cn": "巴哈马",
+	  "py": "ba ha ma"
+	},
+	{
+	  "code": "973",
+	  "en": "Bahrain",
+	  "key": "BH",
+	  "cn": "巴林",
+	  "py": "ba lin"
+	},
+	{
+	  "code": "880",
+	  "en": "Bangladesh",
+	  "key": "BD",
+	  "cn": "孟加拉国",
+	  "py": "meng jia la guo"
+	},
+	{
+	  "code": "1246",
+	  "en": "Barbados",
+	  "key": "BB",
+	  "cn": "巴巴多斯",
+	  "py": "ba ba duo si"
+	},
+	{
+	  "code": "375",
+	  "en": "Belarus",
+	  "key": "BY",
+	  "cn": "白俄罗斯",
+	  "py": "bai e luo si"
+	},
+	{
+	  "code": "32",
+	  "en": "Belgium",
+	  "key": "BE",
+	  "cn": "比利时",
+	  "py": "bi li shi"
+	},
+	{
+	  "code": "501",
+	  "en": "Belize",
+	  "key": "BZ",
+	  "cn": "伯利兹",
+	  "py": "bo li zi"
+	},
+	{
+	  "code": "229",
+	  "en": "Benin",
+	  "key": "BJ",
+	  "cn": "贝宁",
+	  "py": "bei ning"
+	},
+	{
+	  "code": "1441",
+	  "en": "BermudaIs.",
+	  "key": "BM",
+	  "cn": "百慕大群岛",
+	  "py": "bai mu da qun dao"
+	},
+	{
+	  "code": "975",
+	  "en": "Bhutan",
+	  "key": "BT",
+	  "cn": "不丹",
+	  "py": "bu dan"
+	},
+	{
+	  "code": "591",
+	  "en": "Bolivia",
+	  "key": "BO",
+	  "cn": "玻利维亚",
+	  "py": "bo li wei ya"
+	},
+	{
+	  "code": "387",
+	  "en": "Bosnia and Herzegovina",
+	  "key": "BA",
+	  "cn": "波斯尼亚和黑塞哥维那",
+	  "py": "bo si ni ya he hei sai ge wei na"
+	},
+	{
+	  "code": "267",
+	  "en": "Botswana",
+	  "key": "BW",
+	  "cn": "博茨瓦纳",
+	  "py": "bo ci wa na"
+	},
+	{
+	  "code": "55",
+	  "en": "Brazil",
+	  "key": "BR",
+	  "cn": "巴西",
+	  "py": "ba xi"
+	},
+	{
+	  "code": "1284",
+	  "en": "The British Virgin Islands",
+	  "key": "VG",
+	  "cn": "英属维京群岛",
+	  "py": "ying shu wei jing qun dao"
+	},
+	{
+	  "code": "673",
+	  "en": "Brunei",
+	  "key": "BN",
+	  "cn": "文莱",
+	  "py": "wen lai"
+	},
+	{
+	  "code": "359",
+	  "en": "Bulgaria",
+	  "key": "BG",
+	  "cn": "保加利亚",
+	  "py": "bao jia li ya"
+	},
+	{
+	  "code": "226",
+	  "en": "Burkina-faso",
+	  "key": "BF",
+	  "cn": "布基纳法索",
+	  "py": "bu ji na fa suo"
+	},
+	{
+	  "code": "95",
+	  "en": "Burma",
+	  "key": "MM",
+	  "cn": "缅甸",
+	  "py": "mian dian"
+	},
+	{
+	  "code": "257",
+	  "en": "Burundi",
+	  "key": "BI",
+	  "cn": "布隆迪",
+	  "py": "bu long di"
+	},
+	{
+	  "code": "855",
+	  "en": "Kampuchea (Cambodia )",
+	  "key": "KH",
+	  "cn": "柬埔寨",
+	  "py": "jian bu zhai"
+	},
+	{
+	  "code": "237",
+	  "en": "Cameroon",
+	  "key": "CM",
+	  "cn": "喀麦隆",
+	  "py": "ka mai long"
+	},
+	{
+	  "code": "238",
+	  "en": "The Republic of Cape Verde",
+	  "key": "CV",
+	  "cn": "佛得角",
+	  "py": "fu de jiao"
+	},
+	{
+	  "code": "1345",
+	  "en": "Cayman Islands",
+	  "key": "KY",
+	  "cn": "开曼群岛",
+	  "py": "kai man qun dao"
+	},
+	{
+	  "code": "236",
+	  "en": "Central African Republic",
+	  "key": "CF",
+	  "cn": "中非共和国",
+	  "py": "zhong fei gong he guo"
+	},
+	{
+	  "code": "235",
+	  "en": "Chad",
+	  "key": "TD",
+	  "cn": "乍得",
+	  "py": "zha de"
+	},
+	{
+	  "code": "56",
+	  "en": "Chile",
+	  "key": "CL",
+	  "cn": "智利",
+	  "py": "zhi li"
+	},
+	{
+	  "code": "61",
+	  "en": "The Territory of Christmas Island",
+	  "key": "CX",
+	  "cn": "圣诞岛",
+	  "py": "sheng dan dao"
+	},
+	{
+	  "code": "61",
+	  "en": "Cocos (Keeling) Islands",
+	  "key": "CC",
+	  "cn": "科科斯（基林）群岛",
+	  "py": "ke ke si （ji lin） qun dao"
+	},
+	{
+	  "code": "57",
+	  "en": "Colombia",
+	  "key": "CO",
+	  "cn": "哥伦比亚",
+	  "py": "ge lun bi ya"
+	},
+	{
+	  "code": "269",
+	  "en": "Comoros",
+	  "key": "KM",
+	  "cn": "科摩罗",
+	  "py": "ke mo luo"
+	},
+	{
+	  "code": "682",
+	  "en": "Cook Is.",
+	  "key": "CK",
+	  "cn": "库克群岛",
+	  "py": "ku ke qun dao"
+	},
+	{
+	  "code": "506",
+	  "en": "Costa Rica",
+	  "key": "CR",
+	  "cn": "哥斯达黎加",
+	  "py": "ge si da li jia"
+	},
+	{
+	  "code": "385",
+	  "en": "Croatia",
+	  "key": "HR",
+	  "cn": "克罗地亚",
+	  "py": "ke luo de ya"
+	},
+	{
+	  "code": "53",
+	  "en": "Cuba",
+	  "key": "CU",
+	  "cn": "古巴",
+	  "py": "gu ba"
+	},
+	{
+	  "code": "357",
+	  "en": "Cyprus",
+	  "key": "CY",
+	  "cn": "塞浦路斯",
+	  "py": "sai pu lu si"
+	},
+	{
+	  "code": "420",
+	  "en": "Czech Republic",
+	  "key": "CZ",
+	  "cn": "捷克",
+	  "py": "jie ke"
+	},
+	{
+	  "code": "243",
+	  "en": "Democratic Republic of the Congo",
+	  "key": "CD",
+	  "cn": "刚果（金）",
+	  "py": "gang guo （jin）"
+	},
+	{
+	  "code": "45",
+	  "en": "Denmark",
+	  "key": "DK",
+	  "cn": "丹麦",
+	  "py": "dan mai"
+	},
+	{
+	  "code": "253",
+	  "en": "Djibouti",
+	  "key": "DJ",
+	  "cn": "吉布提",
+	  "py": "ji bu ti"
+	},
+	{
+	  "code": "1767",
+	  "en": "The Commonwealth of Dominica",
+	  "key": "DM",
+	  "cn": "多米尼克",
+	  "py": "duo mi ni ke"
+	},
+	{
+	  "code": "1809",
+	  "en": "Dominica Rep.",
+	  "key": "DO",
+	  "cn": "多米尼加共和国",
+	  "py": "duo mi ni jia gong he guo"
+	},
+	{
+	  "code": "593",
+	  "en": "Ecuador",
+	  "key": "EC",
+	  "cn": "厄瓜多尔",
+	  "py": "e gua duo er"
+	},
+	{
+	  "code": "20",
+	  "en": "Egypt",
+	  "key": "EG",
+	  "cn": "埃及",
+	  "py": "ai ji"
+	},
+	{
+	  "code": "503",
+	  "en": "EISalvador",
+	  "key": "SV",
+	  "cn": "萨尔瓦多",
+	  "py": "sa er wa duo"
+	},
+	{
+	  "code": "240",
+	  "en": "The Republic of Equatorial Guinea",
+	  "key": "GQ",
+	  "cn": "赤道几内亚",
+	  "py": "chi dao ji nei ya"
+	},
+	{
+	  "code": "291",
+	  "en": "Eritrea",
+	  "key": "ER",
+	  "cn": "厄立特里亚",
+	  "py": "e li te li ya"
+	},
+	{
+	  "code": "372",
+	  "en": "Estonia",
+	  "key": "EE",
+	  "cn": "爱沙尼亚",
+	  "py": "ai sha ni ya"
+	},
+	{
+	  "code": "251",
+	  "en": "Ethiopia",
+	  "key": "ET",
+	  "cn": "埃塞俄比亚",
+	  "py": "ai sai e bi ya"
+	},
+	{
+	  "code": "500",
+	  "en": "Islas Malvinas",
+	  "key": "FK",
+	  "cn": "福克兰群岛",
+	  "py": "fu ke lan qun dao"
+	},
+	{
+	  "code": "298",
+	  "en": "Faroe Islands",
+	  "key": "FO",
+	  "cn": "法罗群岛",
+	  "py": "fa luo qun dao"
+	},
+	{
+	  "code": "679",
+	  "en": "Fiji",
+	  "key": "FJ",
+	  "cn": "斐济",
+	  "py": "fei ji"
+	},
+	{
+	  "code": "358",
+	  "en": "Finland",
+	  "key": "FI",
+	  "cn": "芬兰",
+	  "py": "fen lan"
+	},
+	{
+	  "code": "33",
+	  "en": "France",
+	  "key": "FR",
+	  "cn": "法国",
+	  "py": "fa guo"
+	},
+	{
+	  "code": "689",
+	  "en": "French Polynesia",
+	  "key": "PF",
+	  "cn": "法属玻利尼西亚",
+	  "py": "fa shu bo li ni xi ya"
+	},
+	{
+	  "code": "241",
+	  "en": "Gabon",
+	  "key": "GA",
+	  "cn": "加蓬",
+	  "py": "jia peng"
+	},
+	{
+	  "code": "220",
+	  "en": "Gambia",
+	  "key": "GM",
+	  "cn": "冈比亚",
+	  "py": "gang bi ya"
+	},
+	{
+	  "code": "995",
+	  "en": "Georgia",
+	  "key": "GE",
+	  "cn": "格鲁吉亚",
+	  "py": "ge lu ji ya"
+	},
+	{
+	  "code": "233",
+	  "en": "Ghana",
+	  "key": "GH",
+	  "cn": "加纳",
+	  "py": "jia na"
+	},
+	{
+	  "code": "350",
+	  "en": "Gibraltar",
+	  "key": "GI",
+	  "cn": "直布罗陀",
+	  "py": "zhi bu luo tuo"
+	},
+	{
+	  "code": "30",
+	  "en": "Greece",
+	  "key": "GR",
+	  "cn": "希腊",
+	  "py": "xi la"
+	},
+	{
+	  "code": "299",
+	  "en": "Greenland",
+	  "key": "GL",
+	  "cn": "格陵兰",
+	  "py": "ge ling lan"
+	},
+	{
+	  "code": "1473",
+	  "en": "Grenada",
+	  "key": "GD",
+	  "cn": "格林纳达",
+	  "py": "ge lin na da"
+	},
+	{
+	  "code": "1671",
+	  "en": "Guam",
+	  "key": "GU",
+	  "cn": "关岛",
+	  "py": "guan dao"
+	},
+	{
+	  "code": "502",
+	  "en": "Guatemala",
+	  "key": "GT",
+	  "cn": "危地马拉",
+	  "py": "wei de ma la"
+	},
+	{
+	  "code": "224",
+	  "en": "Guinea",
+	  "key": "GN",
+	  "cn": "几内亚",
+	  "py": "ji nei ya"
+	},
+	{
+	  "code": "245",
+	  "en": "The Republic of Guinea-Bissau",
+	  "key": "GW",
+	  "cn": "几内亚比绍",
+	  "py": "ji nei ya bi shao"
+	},
+	{
+	  "code": "592",
+	  "en": "Guyana",
+	  "key": "GY",
+	  "cn": "圭亚那",
+	  "py": "gui ya na"
+	},
+	{
+	  "code": "509",
+	  "en": "Haiti",
+	  "key": "HT",
+	  "cn": "海地",
+	  "py": "hai de"
+	},
+	{
+	  "code": "379",
+	  "en": "Vatican City State",
+	  "key": "VA",
+	  "cn": "梵蒂冈",
+	  "py": "fan di gang"
+	},
+	{
+	  "code": "504",
+	  "en": "Honduras",
+	  "key": "HN",
+	  "cn": "洪都拉斯",
+	  "py": "hong dou la si"
+	},
+	{
+	  "code": "852",
+	  "en": "Hongkong",
+	  "key": "HK",
+	  "cn": "香港",
+	  "py": "xiang gang"
+	},
+	{
+	  "code": "36",
+	  "en": "Hungary",
+	  "key": "HU",
+	  "cn": "匈牙利",
+	  "py": "xiong ya li"
+	},
+	{
+	  "code": "354",
+	  "en": "Iceland",
+	  "key": "IS",
+	  "cn": "冰岛",
+	  "py": "bing dao"
+	},
+	{
+	  "code": "91",
+	  "en": "India",
+	  "key": "IN",
+	  "cn": "印度",
+	  "py": "yin du"
+	},
+	{
+	  "code": "62",
+	  "en": "Indonesia",
+	  "key": "ID",
+	  "cn": "印度尼西亚",
+	  "py": "yin du ni xi ya"
+	},
+	{
+	  "code": "98",
+	  "en": "Iran",
+	  "key": "IR",
+	  "cn": "伊朗",
+	  "py": "yi lang"
+	},
+	{
+	  "code": "964",
+	  "en": "Iraq",
+	  "key": "IQ",
+	  "cn": "伊拉克",
+	  "py": "yi la ke"
+	},
+	{
+	  "code": "353",
+	  "en": "Ireland",
+	  "key": "IE",
+	  "cn": "爱尔兰",
+	  "py": "ai er lan"
+	},
+	{
+	  "code": "44",
+	  "en": "Mann",
+	  "key": "IM",
+	  "cn": "曼岛",
+	  "py": "man dao"
+	},
+	{
+	  "code": "972",
+	  "en": "Israel",
+	  "key": "IL",
+	  "cn": "以色列",
+	  "py": "yi se lie"
+	},
+	{
+	  "code": "39",
+	  "en": "Italy",
+	  "key": "IT",
+	  "cn": "意大利",
+	  "py": "yi da li"
+	},
+	{
+	  "code": "225",
+	  "en": "Ivory Coast",
+	  "key": "CI",
+	  "cn": "科特迪瓦",
+	  "py": "ke te di wa"
+	},
+	{
+	  "code": "1876",
+	  "en": "Jamaica",
+	  "key": "JM",
+	  "cn": "牙买加",
+	  "py": "ya mai jia"
+	},
+	{
+	  "code": "962",
+	  "en": "Jordan",
+	  "key": "JO",
+	  "cn": "约旦",
+	  "py": "yue dan"
+	},
+	{
+	  "code": "7",
+	  "en": "Kazakstan",
+	  "key": "KZ",
+	  "cn": "哈萨克斯坦",
+	  "py": "ha sa ke si tan"
+	},
+	{
+	  "code": "254",
+	  "en": "Kenya",
+	  "key": "KE",
+	  "cn": "肯尼亚",
+	  "py": "ken ni ya"
+	},
+	{
+	  "code": "686",
+	  "en": "Kiribati",
+	  "key": "KI",
+	  "cn": "基里巴斯",
+	  "py": "ji li ba si"
+	},
+	{
+	  "code": "965",
+	  "en": "Kuwait",
+	  "key": "KW",
+	  "cn": "科威特",
+	  "py": "ke wei te"
+	},
+	{
+	  "code": "996",
+	  "en": "Kyrgyzstan",
+	  "key": "KG",
+	  "cn": "吉尔吉斯坦",
+	  "py": "ji er ji si tan"
+	},
+	{
+	  "code": "856",
+	  "en": "Laos",
+	  "key": "LA",
+	  "cn": "老挝",
+	  "py": "lao wo"
+	},
+	{
+	  "code": "371",
+	  "en": "Latvia",
+	  "key": "LV",
+	  "cn": "拉脱维亚",
+	  "py": "la tuo wei ya"
+	},
+	{
+	  "code": "961",
+	  "en": "Lebanon",
+	  "key": "LB",
+	  "cn": "黎巴嫩",
+	  "py": "li ba nen"
+	},
+	{
+	  "code": "266",
+	  "en": "Lesotho",
+	  "key": "LS",
+	  "cn": "莱索托",
+	  "py": "lai suo tuo"
+	},
+	{
+	  "code": "231",
+	  "en": "Liberia",
+	  "key": "LR",
+	  "cn": "利比里亚",
+	  "py": "li bi li ya"
+	},
+	{
+	  "code": "218",
+	  "en": "Libya",
+	  "key": "LY",
+	  "cn": "利比亚",
+	  "py": "li bi ya"
+	},
+	{
+	  "code": "423",
+	  "en": "Liechtenstein",
+	  "key": "LI",
+	  "cn": "列支敦士登",
+	  "py": "lie zhi dun shi deng"
+	},
+	{
+	  "code": "370",
+	  "en": "Lithuania",
+	  "key": "LT",
+	  "cn": "立陶宛",
+	  "py": "li tao wan"
+	},
+	{
+	  "code": "352",
+	  "en": "Luxembourg",
+	  "key": "LU",
+	  "cn": "卢森堡",
+	  "py": "lu sen bao"
+	},
+	{
+	  "code": "853",
+	  "en": "Macao",
+	  "key": "MO",
+	  "cn": "澳门",
+	  "py": "ao men"
+	},
+	{
+	  "code": "389",
+	  "en": "Macedonia",
+	  "key": "MK",
+	  "cn": "马其顿",
+	  "py": "ma qi dun"
+	},
+	{
+	  "code": "261",
+	  "en": "Madagascar",
+	  "key": "MG",
+	  "cn": "马达加斯加",
+	  "py": "ma da jia si jia"
+	},
+	{
+	  "code": "265",
+	  "en": "Malawi",
+	  "key": "MW",
+	  "cn": "马拉维",
+	  "py": "ma la wei"
+	},
+	{
+	  "code": "60",
+	  "en": "Malaysia",
+	  "key": "MY",
+	  "cn": "马来西亚",
+	  "py": "ma lai xi ya"
+	},
+	{
+	  "code": "960",
+	  "en": "Maldives",
+	  "key": "MV",
+	  "cn": "马尔代夫",
+	  "py": "ma er dai fu"
+	},
+	{
+	  "code": "223",
+	  "en": "Mali",
+	  "key": "ML",
+	  "cn": "马里",
+	  "py": "ma li"
+	},
+	{
+	  "code": "356",
+	  "en": "Malta",
+	  "key": "MT",
+	  "cn": "马耳他",
+	  "py": "ma er ta"
+	},
+	{
+	  "code": "692",
+	  "en": "Marshall Islands",
+	  "key": "MH",
+	  "cn": "马绍尔群岛",
+	  "py": "ma shao er qun dao"
+	},
+	{
+	  "code": "222",
+	  "en": "Mauritania",
+	  "key": "MR",
+	  "cn": "毛里塔尼亚",
+	  "py": "mao li ta ni ya"
+	},
+	{
+	  "code": "230",
+	  "en": "Mauritius",
+	  "key": "MU",
+	  "cn": "毛里求斯",
+	  "py": "mao li qiu si"
+	},
+	{
+	  "code": "262",
+	  "en": "Territorial Collectivity of Mayotte",
+	  "key": "YT",
+	  "cn": "马约特",
+	  "py": "ma yue te"
+	},
+	{
+	  "code": "52",
+	  "en": "Mexico",
+	  "key": "MX",
+	  "cn": "墨西哥",
+	  "py": "mo xi ge"
+	},
+	{
+	  "code": "691",
+	  "en": "Federated States of Micronesia",
+	  "key": "FM",
+	  "cn": "密克罗尼西亚",
+	  "py": "mi ke luo ni xi ya"
+	},
+	{
+	  "code": "373",
+	  "en": "Moldova",
+	  "key": "MD",
+	  "cn": "摩尔多瓦",
+	  "py": "mo er duo wa"
+	},
+	{
+	  "code": "377",
+	  "en": "Monaco",
+	  "key": "MC",
+	  "cn": "摩纳哥",
+	  "py": "mo na ge"
+	},
+	{
+	  "code": "976",
+	  "en": "Mongolia",
+	  "key": "MN",
+	  "cn": "蒙古",
+	  "py": "meng gu"
+	},
+	{
+	  "code": "382",
+	  "en": "Montenegro",
+	  "key": "ME",
+	  "cn": "黑山",
+	  "py": "hei shan"
+	},
+	{
+	  "code": "1664",
+	  "en": "Montserrat Is",
+	  "key": "MS",
+	  "cn": "蒙特塞拉特岛",
+	  "py": "meng te sai la te dao"
+	},
+	{
+	  "code": "212",
+	  "en": "Morocco",
+	  "key": "MA",
+	  "cn": "摩洛哥",
+	  "py": "mo luo ge"
+	},
+	{
+	  "code": "258",
+	  "en": "Mozambique",
+	  "key": "MZ",
+	  "cn": "莫桑比克",
+	  "py": "mo sang bi ke"
+	},
+	{
+	  "code": "264",
+	  "en": "Namibia",
+	  "key": "NA",
+	  "cn": "纳米比亚",
+	  "py": "na mi bi ya"
+	},
+	{
+	  "code": "674",
+	  "en": "Nauru",
+	  "key": "NR",
+	  "cn": "瑙鲁",
+	  "py": "nao lu"
+	},
+	{
+	  "code": "977",
+	  "en": "Nepal",
+	  "key": "NP",
+	  "cn": "尼泊尔",
+	  "py": "ni po er"
+	},
+	{
+	  "code": "31",
+	  "en": "Netherlands",
+	  "key": "NL",
+	  "cn": "荷兰",
+	  "py": "he lan"
+	},
+	{
+	  "code": "599",
+	  "en": "Netherlands Antilles",
+	  "key": "AN",
+	  "cn": "荷属安的列斯",
+	  "py": "he shu an de lie si"
+	},
+	{
+	  "code": "687",
+	  "en": "New Caledonia",
+	  "key": "NC",
+	  "cn": "新喀里多尼亚",
+	  "py": "xin ka li duo ni ya"
+	},
+	{
+	  "code": "64",
+	  "en": "NewZealand",
+	  "key": "NZ",
+	  "cn": "新西兰",
+	  "py": "xin xi lan"
+	},
+	{
+	  "code": "505",
+	  "en": "Nicaragua",
+	  "key": "NI",
+	  "cn": "尼加拉瓜",
+	  "py": "ni jia la gua"
+	},
+	{
+	  "code": "227",
+	  "en": "Niger",
+	  "key": "NE",
+	  "cn": "尼日尔",
+	  "py": "ni ri er"
+	},
+	{
+	  "code": "234",
+	  "en": "Nigeria",
+	  "key": "NG",
+	  "cn": "尼日利亚",
+	  "py": "ni ri li ya"
+	},
+	{
+	  "code": "683",
+	  "en": "Niue",
+	  "key": "NU",
+	  "cn": "纽埃",
+	  "py": "niu ai"
+	},
+	{
+	  "code": "850",
+	  "en": "North Korea",
+	  "key": "KP",
+	  "cn": "朝鲜",
+	  "py": "chao xian"
+	},
+	{
+	  "code": "1670",
+	  "en": "Northern Mariana Islands",
+	  "key": "MP",
+	  "cn": "北马里亚纳群岛",
+	  "py": "bei ma li ya na qun dao"
+	},
+	{
+	  "code": "47",
+	  "en": "Norway",
+	  "key": "NO",
+	  "cn": "挪威",
+	  "py": "nuo wei"
+	},
+	{
+	  "code": "968",
+	  "en": "Oman",
+	  "key": "OM",
+	  "cn": "阿曼",
+	  "py": "a man"
+	},
+	{
+	  "code": "92",
+	  "en": "Pakistan",
+	  "key": "PK",
+	  "cn": "巴基斯坦",
+	  "py": "ba ji si tan"
+	},
+	{
+	  "code": "680",
+	  "en": "Palau",
+	  "key": "PW",
+	  "cn": "帕劳群岛",
+	  "py": "pa lao qun dao"
+	},
+	{
+	  "code": "507",
+	  "en": "Panama",
+	  "key": "PA",
+	  "cn": "巴拿马",
+	  "py": "ba na ma"
+	},
+	{
+	  "code": "675",
+	  "en": "Papua New Cuinea",
+	  "key": "PG",
+	  "cn": "巴布亚新几内亚",
+	  "py": "ba bu ya xin ji nei ya"
+	},
+	{
+	  "code": "595",
+	  "en": "Paraguay",
+	  "key": "PY",
+	  "cn": "巴拉圭",
+	  "py": "ba la gui"
+	},
+	{
+	  "code": "51",
+	  "en": "Peru",
+	  "key": "PE",
+	  "cn": "秘鲁",
+	  "py": "mi lu"
+	},
+	{
+	  "code": "63",
+	  "en": "Philippines",
+	  "key": "PH",
+	  "cn": "菲律宾",
+	  "py": "fei lu bin"
+	},
+	{
+	  "code": "870",
+	  "en": "Pitcairn Islands",
+	  "key": "PN",
+	  "cn": "皮特凯恩群岛",
+	  "py": "pi te kai en qun dao"
+	},
+	{
+	  "code": "48",
+	  "en": "Poland",
+	  "key": "PL",
+	  "cn": "波兰",
+	  "py": "bo lan"
+	},
+	{
+	  "code": "351",
+	  "en": "Portugal",
+	  "key": "PT",
+	  "cn": "葡萄牙",
+	  "py": "pu tao ya"
+	},
+	{
+	  "code": "1",
+	  "en": "PuertoRico",
+	  "key": "PR",
+	  "cn": "波多黎各",
+	  "py": "bo duo li ge"
+	},
+	{
+	  "code": "974",
+	  "en": "Qatar",
+	  "key": "QA",
+	  "cn": "卡塔尔",
+	  "py": "ka ta er"
+	},
+	{
+	  "code": "242",
+	  "en": "Congo",
+	  "key": "CG",
+	  "cn": "刚果",
+	  "py": "gang guo"
+	},
+	{
+	  "code": "40",
+	  "en": "Romania",
+	  "key": "RO",
+	  "cn": "罗马尼亚",
+	  "py": "luo ma ni ya"
+	},
+	{
+	  "code": "7",
+	  "en": "Russia",
+	  "key": "RU",
+	  "cn": "俄罗斯",
+	  "py": "e luo si"
+	},
+	{
+	  "code": "250",
+	  "en": "Rwanda",
+	  "key": "RW",
+	  "cn": "卢旺达",
+	  "py": "lu wang da"
+	},
+	{
+	  "code": "590",
+	  "en": "Saint-Barthélemy",
+	  "key": "BL",
+	  "cn": "圣巴泰勒米",
+	  "py": "sheng ba tai lei mi"
+	},
+	{
+	  "code": "290",
+	  "en": "Saint Helena",
+	  "key": "SH",
+	  "cn": "圣赫勒拿",
+	  "py": "sheng he lei na"
+	},
+	{
+	  "code": "1869",
+	  "en": "St.Kitts and Nevis",
+	  "key": "KN",
+	  "cn": "圣基茨和尼维斯",
+	  "py": "sheng ji ci he ni wei si"
+	},
+	{
+	  "code": "1758",
+	  "en": "St.Lucia",
+	  "key": "LC",
+	  "cn": "圣卢西亚",
+	  "py": "sheng lu xi ya"
+	},
+	{
+	  "code": "1599",
+	  "en": "Collectivité de Saint-Martin",
+	  "key": "MF",
+	  "cn": "法属圣马丁",
+	  "py": "fa shu sheng ma ding"
+	},
+	{
+	  "code": "508",
+	  "en": "The Islands of st pierre and miquelon",
+	  "key": "PM",
+	  "cn": "圣皮埃尔和密克隆群岛",
+	  "py": "sheng pi ai er he mi ke long qun dao"
+	},
+	{
+	  "code": "1784",
+	  "en": "St.Vincent",
+	  "key": "VC",
+	  "cn": "圣文森特",
+	  "py": "sheng wen sen te"
+	},
+	{
+	  "code": "685",
+	  "en": "Samoa",
+	  "key": "WS",
+	  "cn": "萨摩亚",
+	  "py": "sa mo ya"
+	},
+	{
+	  "code": "378",
+	  "en": "San Marino",
+	  "key": "SM",
+	  "cn": "圣马力诺",
+	  "py": "sheng ma li nuo"
+	},
+	{
+	  "code": "239",
+	  "en": "Sao Tome and Principe",
+	  "key": "ST",
+	  "cn": "圣多美和普林西比",
+	  "py": "sheng duo mei he pu lin xi bi"
+	},
+	{
+	  "code": "966",
+	  "en": "Saudi Arabia",
+	  "key": "SA",
+	  "cn": "沙特阿拉伯",
+	  "py": "sha te a la bo"
+	},
+	{
+	  "code": "221",
+	  "en": "Senegal",
+	  "key": "SN",
+	  "cn": "塞内加尔",
+	  "py": "sai nei jia er"
+	},
+	{
+	  "code": "381",
+	  "en": "The Republic of Serbia",
+	  "key": "RS",
+	  "cn": "塞尔维亚",
+	  "py": "sai er wei ya"
+	},
+	{
+	  "code": "248",
+	  "en": "Seychelles",
+	  "key": "SC",
+	  "cn": "塞舌尔",
+	  "py": "sai she er"
+	},
+	{
+	  "code": "232",
+	  "en": "Sierra Leone",
+	  "key": "SL",
+	  "cn": "塞拉利昂",
+	  "py": "sai la li ang"
+	},
+	{
+	  "code": "421",
+	  "en": "Slovakia",
+	  "key": "SK",
+	  "cn": "斯洛伐克",
+	  "py": "si luo fa ke"
+	},
+	{
+	  "code": "386",
+	  "en": "Slovenia",
+	  "key": "SI",
+	  "cn": "斯洛文尼亚",
+	  "py": "si luo wen ni ya"
+	},
+	{
+	  "code": "677",
+	  "en": "Solomon Is",
+	  "key": "SB",
+	  "cn": "所罗门群岛",
+	  "py": "suo luo men qun dao"
+	},
+	{
+	  "code": "252",
+	  "en": "Somali",
+	  "key": "SO",
+	  "cn": "索马里",
+	  "py": "suo ma li"
+	},
+	{
+	  "code": "27",
+	  "en": "South Africa",
+	  "key": "ZA",
+	  "cn": "南非",
+	  "py": "nan fei"
+	},
+	{
+	  "code": "82",
+	  "en": "Korea",
+	  "key": "KR",
+	  "cn": "韩国",
+	  "py": "han guo"
+	},
+	{
+	  "code": "34",
+	  "en": "Spain",
+	  "key": "ES",
+	  "cn": "西班牙",
+	  "py": "xi ban ya"
+	},
+	{
+	  "code": "94",
+	  "en": "Sri Lanka",
+	  "key": "LK",
+	  "cn": "斯里兰卡",
+	  "py": "si li lan ka"
+	},
+	{
+	  "code": "249",
+	  "en": "Sudan",
+	  "key": "SD",
+	  "cn": "苏丹",
+	  "py": "su dan"
+	},
+	{
+	  "code": "597",
+	  "en": "Suriname",
+	  "key": "SR",
+	  "cn": "苏里南",
+	  "py": "su li nan"
+	},
+	{
+	  "code": "268",
+	  "en": "Swaziland",
+	  "key": "SZ",
+	  "cn": "斯威士兰",
+	  "py": "si wei shi lan"
+	},
+	{
+	  "code": "46",
+	  "en": "Sweden",
+	  "key": "SE",
+	  "cn": "瑞典",
+	  "py": "rui dian"
+	},
+	{
+	  "code": "41",
+	  "en": "Switzerland",
+	  "key": "CH",
+	  "cn": "瑞士",
+	  "py": "rui shi"
+	},
+	{
+	  "code": "963",
+	  "en": "Syria",
+	  "key": "SY",
+	  "cn": "叙利亚",
+	  "py": "xu li ya"
+	},
+	{
+	  "code": "886",
+	  "en": "Taiwan",
+	  "key": "TW",
+	  "cn": "台湾省",
+	  "py": "tai wan sheng"
+	},
+	{
+	  "code": "992",
+	  "en": "Tajikstan",
+	  "key": "TJ",
+	  "cn": "塔吉克斯坦",
+	  "py": "ta ji ke si tan"
+	},
+	{
+	  "code": "255",
+	  "en": "Tanzania",
+	  "key": "TZ",
+	  "cn": "坦桑尼亚",
+	  "py": "tan sang ni ya"
+	},
+	{
+	  "code": "66",
+	  "en": "Thailand",
+	  "key": "TH",
+	  "cn": "泰国",
+	  "py": "tai guo"
+	},
+	{
+	  "code": "670",
+	  "en": "Democratic Republic of Timor-Leste",
+	  "key": "TL",
+	  "cn": "东帝汶",
+	  "py": "dong di wen"
+	},
+	{
+	  "code": "228",
+	  "en": "Togo",
+	  "key": "TG",
+	  "cn": "多哥",
+	  "py": "duo ge"
+	},
+	{
+	  "code": "690",
+	  "en": "Tokelau",
+	  "key": "TK",
+	  "cn": "托克劳",
+	  "py": "tuo ke lao"
+	},
+	{
+	  "code": "676",
+	  "en": "Tonga",
+	  "key": "TO",
+	  "cn": "汤加",
+	  "py": "tang jia"
+	},
+	{
+	  "code": "1868",
+	  "en": "Trinidad and Tobago",
+	  "key": "TT",
+	  "cn": "特立尼达和多巴哥",
+	  "py": "te li ni da he duo ba ge"
+	},
+	{
+	  "code": "216",
+	  "en": "Tunisia",
+	  "key": "TN",
+	  "cn": "突尼斯",
+	  "py": "tu ni si"
+	},
+	{
+	  "code": "90",
+	  "en": "Turkey",
+	  "key": "TR",
+	  "cn": "土耳其",
+	  "py": "tu er qi"
+	},
+	{
+	  "code": "993",
+	  "en": "Turkmenistan",
+	  "key": "TM",
+	  "cn": "土库曼斯坦",
+	  "py": "tu ku man si tan"
+	},
+	{
+	  "code": "1649",
+	  "en": "The Turks and Caicos Islands",
+	  "key": "TC",
+	  "cn": "特克斯和凯科斯群岛",
+	  "py": "te ke si he kai ke si qun dao"
+	},
+	{
+	  "code": "688",
+	  "en": "Tuvalu",
+	  "key": "TV",
+	  "cn": "图瓦卢",
+	  "py": "tu wa lu"
+	},
+	{
+	  "code": "256",
+	  "en": "Uganda",
+	  "key": "UG",
+	  "cn": "乌干达",
+	  "py": "wu gan da"
+	},
+	{
+	  "code": "380",
+	  "en": "Ukraine",
+	  "key": "UA",
+	  "cn": "乌克兰",
+	  "py": "wu ke lan"
+	},
+	{
+	  "code": "971",
+	  "en": "United Arab Emirates",
+	  "key": "AE",
+	  "cn": "阿拉伯联合酋长国",
+	  "py": "a la bo lian he qiu zhang guo"
+	},
+	{
+	  "code": "598",
+	  "en": "Uruguay",
+	  "key": "UY",
+	  "cn": "乌拉圭",
+	  "py": "wu la gui"
+	},
+	{
+	  "code": "1340",
+	  "en": "The United States Virgin Islands",
+	  "key": "VI",
+	  "cn": "美属维京群岛",
+	  "py": "mei shu wei jing qun dao"
+	},
+	{
+	  "code": "998",
+	  "en": "Uzbekistan",
+	  "key": "UZ",
+	  "cn": "乌兹别克斯坦",
+	  "py": "wu zi bie ke si tan"
+	},
+	{
+	  "code": "678",
+	  "en": "Vanuatu",
+	  "key": "VU",
+	  "cn": "瓦努阿图",
+	  "py": "wa nu a tu"
+	},
+	{
+	  "code": "58",
+	  "en": "Venezuela",
+	  "key": "VE",
+	  "cn": "委内瑞拉",
+	  "py": "wei nei rui la"
+	},
+	{
+	  "code": "84",
+	  "en": "Vietnam",
+	  "key": "VN",
+	  "cn": "越南",
+	  "py": "yue nan"
+	},
+	{
+	  "code": "681",
+	  "en": "Wallis et Futuna",
+	  "key": "WF",
+	  "cn": "瓦利斯和富图纳",
+	  "py": "wa li si he fu tu na"
+	},
+	{
+	  "code": "967",
+	  "en": "Yemen",
+	  "key": "YE",
+	  "cn": "也门",
+	  "py": "ye men"
+	},
+	{
+	  "code": "260",
+	  "en": "Zambia",
+	  "key": "ZM",
+	  "cn": "赞比亚",
+	  "py": "zan bi ya"
+	},
+	{
+	  "code": "263",
+	  "en": "Zimbabwe",
+	  "key": "ZW",
+	  "cn": "津巴布韦",
+	  "py": "jin ba bu wei"
+	}
+]

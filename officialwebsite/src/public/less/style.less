@@ -1,0 +1,507 @@
+@import "base.less";
+@bgf9:#f9f9f9;
+@bgB5:#B5917F;
+@bgF2:#F2F2F2;
+@colorAB: #AB8368;
+@color4A:#4A4A4A;
+@colorA7:#A77D61;
+body{
+  background: #f9f9f9;
+}
+@media (min-width:1200px){
+  //pc端
+  //pc端通用
+  .container{
+    margin: auto;
+    width: 1200px;
+  }
+  //官网首页
+  .summary-box{
+    // background: url(../img/home/bgWhite.png) fixed center center no-repeat;;
+    // background-size: contain;
+    width: 100%;
+    max-height: 918px;
+    position: relative;
+    .bgWhite{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    nav{
+      height: 125px;
+      ul{
+        .clr();
+        li{
+          float: right;
+          .ml(24px);
+          .mt(69px);
+          .mb(31px);
+          a{
+            color: #4A4A4A;
+            display: inline-block;
+          }
+        }
+        .logo{
+          float: left;
+          .ml(0);
+          .mt(53px);
+          a{
+            display: block;
+            .wh(148px,40px);
+          }
+        }
+      }
+
+    }
+    .summary{
+      .sum-left{
+        width: 600px;
+        .mr(96px);
+        h1{
+          font-size: 50px;
+          color: @colorAB;
+          .mt(140px);
+          font-weight: 400;
+
+        }
+        h2{
+          font-size: 34px;
+          .hc(48px);
+          font-weight: 200;
+        }
+        .summary-text1{
+          .mt(80px);
+        }
+        .summary-text{
+          width:100%;
+          letter-spacing: 1.2px;
+          line-height: 36px;
+          min-width: 614px;
+        }
+        .loadImg{
+          .mt(69px);
+          .wh(345px,98px);
+        }
+
+      }
+      .sum-right{
+        width: 467px;
+      }
+    }
+  }
+  //美元宝
+  .dol-treas{
+    .dol-treas-title{
+      text-align: center;
+      color: @colorA7;
+      font-weight: 400;
+      .pt(96px);
+      font-size: 36px;
+      .hc(52px);
+      .pb(93px);
+    }
+    .dol-treas-content{
+      .dol-treas-container{
+        position: relative;
+      }
+      height: 653px;
+      background: @bgB5;
+      .dol-treas-imgBox{
+        width:467px;
+        position: absolute;
+        top: -97px;
+        left: 1.6%;
+      }
+    }
+    .dol-treas-text{
+      float: right;
+      .pt(75px);
+      width:600px;
+      .dol-treas-summary{
+        width:600px;
+        color: #F8F8F8;
+        letter-spacing: -0.21px;
+        line-height: 36px;
+      }
+      .dol-treas-ul{
+        li{
+          .mt(70px);
+          height: 65px;
+          overflow: hidden;
+        }
+        i{
+          .hc(65px);
+          float: left;
+        }
+        li .dol-imgI{
+          .wh(65px,65px);
+          .mr(10px);
+        }
+        .dol-imgT{
+          color:@bgf9;
+          height: 65px;
+        }
+        .dol-treas-li1 .dol-imgI{
+          background: url(../img/home/icon01.png);
+          background-size: cover;
+        }
+        .dol-treas-li2 .dol-imgI{
+          background: url(../img/home/icon02.png);
+          background-size: cover;
+        }
+        .dol-treas-li3 .dol-imgI{
+          background: url(../img/home/icon03.png);
+          background-size: cover;
+        }
+      }
+    }
+  }
+  //基金
+  .fund{
+    .fund-title{
+      text-align: center;
+      color:@colorA7;
+      font-weight: 400;
+      .pt(106px);
+      font-size: 36px;
+      .hc(36px);
+      .pb(55px);
+    }
+    .fund-content{
+      .fund-cont-div{
+        overflow: hidden;
+      }
+      background: @bgF2;
+      height: 653px;
+      .fund-imgBox{
+        width: 495px;
+        float: right;
+        .mt(90px);
+      }
+    }
+    .fund-text{
+      float: left;
+      .pt(75px);
+      width:50%;
+      .fund-summary{
+        max-width:600px;
+        color: @color4A;
+        letter-spacing: -0.21px;
+        line-height: 36px;
+      }
+      .fund-ul{
+        li{
+          .mt(70px);
+          height: 65px;
+          overflow: hidden;
+        }
+        i{
+          .hc(65px);
+          float: left;
+        }
+        li .dol-imgI{
+          .wh(65px,65px);
+          .mr(10px);
+        }
+        .dol-imgT{
+          color:@bgB5;
+          height: 65px;
+        }
+        .fund-li1 .dol-imgI{
+          background: url(../img/home/icon03.png);
+          background-size: cover;
+        }
+        .fund-li2 .dol-imgI{
+          background: url(../img/home/icon04.png);
+          background-size: cover;
+        }
+        .fund-li3 .dol-imgI{
+          background: url(../img/home/icon05.png);
+          background-size: cover;
+        }
+      }
+    }
+  }
+  //合作伙伴
+  .partert{
+    margin-bottom: 100px;
+    .partert-title1{
+      margin:68px auto  0px;
+      .hc(36px);
+      text-align: center;
+      color:@colorA7;
+      font-size: 36px;
+    }
+    .partert-title2{
+      font-size: 30px;
+      color: #515151;
+      letter-spacing: 0;
+      line-height: 40px;
+      height: 40px;
+      text-align: center;
+      margin:30px auto 32px;
+    }
+    .investors{
+      overflow: hidden;
+      li{
+        float: left;
+        width:49%;
+        position: relative;
+        .inveLi-title{
+          .wh(100%,100%);
+          position: absolute;
+          background: rgba(242, 242, 242, 0.9);
+          z-index: 2;
+          top: 0;
+          left: 0;
+          .inveLi-title1{
+            margin-top: 20.4%;
+            font-size: 36px;
+            width: 100%;
+            color: #515151;
+            letter-spacing: 0;
+            height: 23%;
+            display:inline-block;
+            vertical-align:middle;
+            .bz-bb();
+            .pl(4.4%);
+          }
+          .inveLi-title1:after{
+            display:inline-block;
+            content:'';
+            height:100%;
+            width:0;
+            vertical-align:middle;
+          }
+          .inveLi-title2{
+            font-size: 30px;
+            width: 100%;
+            color: #515151;
+            letter-spacing: 0;
+            height: 19.6%;
+            display:inline-block;
+            vertical-align:middle;
+            .bz-bb();
+            .pl(4.4%);
+          }
+          .inveLi-title2:after{
+            display:inline-block;
+            content:'';
+            height:100%;
+            width:0;
+            vertical-align:middle;
+            text-align:center;
+          }
+        }
+      }
+      .inveLi1{
+        margin-right: 2%;
+      }
+    }
+    .financial{
+      .financial-title2{
+        font-size: 30px;
+        color: #515151;
+        letter-spacing: 0;
+        .hc(126px);
+        text-align: center;
+      }
+      overflow: hidden;
+      li{
+        float: left;
+        width:24.25%;
+        position: relative;
+        .finanLi-title{
+          .wh(100%,100%);
+          position: absolute;
+          background: rgba(242, 242, 242, 0.9);
+          z-index: 2;
+          top: 0;
+          left: 0;
+          .finanLi-title1{
+            margin-top: 10.4%;
+            font-size: 36px;
+            width: 100%;
+            color: #515151;
+            letter-spacing: 0;
+            height: 34.7%;
+            display:inline-block;
+            vertical-align:middle;
+            .bz-bb();
+            .pl(8%);
+          }
+          .finanLi-title1:after{
+            display:inline-block;
+            content:'';
+            height:100%;
+            width:0;
+            vertical-align:middle;
+          }
+          .finanLi-title2{
+            width: 100%;
+            color: #515151;
+            letter-spacing: 0;
+            height: 16.3%;
+            display:inline-block;
+            vertical-align:middle;
+            .bz-bb();
+            .pl(8%);
+          }
+          .finanLi-title2:after{
+            display:inline-block;
+            content:'';
+            height:100%;
+            width:0;
+            vertical-align:middle;
+            text-align:center;
+          }
+          .finanLi-title3{
+            width: 100%;
+            color: #515151;
+            letter-spacing: 0;
+            height: 16.3%;
+            display:inline-block;
+            vertical-align:middle;
+            .bz-bb();
+            .pl(8%);
+          }
+          .finanLi-title3:after{
+            display:inline-block;
+            content:'';
+            height:100%;
+            width:0;
+            vertical-align:middle;
+            text-align:center;
+          }
+        }
+      }
+      li{
+        margin-right: 1%;
+      }
+      .financial-box .finanLi4{
+        .mr(0);
+      }
+    }
+  }
+  //底部信息
+  .footer-message{
+    position: relative;
+    max-height: 532px;
+    .footerBg{
+      .wh(100%,100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .message{
+      height: 532px;
+      overflow: hidden;
+      .footerLogo{
+        .wh(100px,91px);
+        margin:46px auto 26px;
+      }
+      .mess-text{
+        width:476px;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 31px;
+        text-align: center;
+        margin:0 auto 144px;
+      }
+      p{
+        font-size: 16px;
+        color: #F2F2F2;
+        letter-spacing: 0;
+        line-height: 27px;
+        height: 27px;
+        text-align: center;
+      }
+      .ICP{
+        margin:13px auto 38px;
+      }
+    }
+  }
+
+}
+
+// //适配1200
+// @media (max-width:1600px){
+//   //第一版概要
+//   .summary-box .summary .sum-left .summary-text1 {
+//     margin-top: 70px;
+//   }
+//   .summary-box .summary .sum-left .loadImg {
+//     margin-top: 59px;
+//   }
+//   //美元宝
+//   .dol-treas .dol-treas-content {
+//       height: 550px;
+//   }
+//   .dol-treas .dol-treas-text .dol-treas-ul li {
+//     margin-top: 50px;
+//   }
+//     //基金
+//   .fund .fund-text .fund-ul li {
+//       margin-top: 50px;
+//   }
+//   .fund .fund-content {
+//     height: 553px;
+//   }
+// }
+// @media (max-width:1300px){
+//   //第一版概要
+//   .summary-box .summary .sum-left .summary-text1 {
+//     margin-top: 60px;
+//   }
+//   .summary-box .summary .sum-left .loadImg {
+//     margin-top: 49px;
+//   }
+//   //美元宝
+//   .dol-treas .dol-treas-content {
+//       height: 550px;
+//   }
+//   .dol-treas .dol-treas-text .dol-treas-ul li {
+//     margin-top: 40px;
+//   }
+//   //基金
+//   .fund .fund-text .fund-ul li {
+//       margin-top: 40px;
+//   }
+//   .fund .fund-content {
+//     height: 553px;
+//   }
+// }
+// @media (max-width:800px){
+//   .width83{
+//     width: 63.3%;
+//     margin: auto;
+//     max-width: 1200px;
+//     min-width: 1048px;
+//   }
+//   //第一版概要
+//   .summary-box .summary .sum-left .summary-text1 {
+//     margin-top: 60px;
+//   }
+//   .summary-box .summary .sum-left .loadImg {
+//     margin-top: 49px;
+//   }
+//   //美元宝
+//   .dol-treas .dol-treas-content {
+//       height: 550px;
+//   }
+//   .dol-treas .dol-treas-text .dol-treas-ul li {
+//     margin-top: 40px;
+//   }
+//   //基金
+//   .fund .fund-text .fund-ul li {
+//       margin-top: 40px;
+//   }
+//   .fund .fund-content {
+//     height: 553px;
+//   }
+// }

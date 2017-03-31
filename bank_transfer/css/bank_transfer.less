@@ -1,0 +1,216 @@
+@import "base.less";
+body{
+  background: #fbfbfb;
+}
+.waiting_box{
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgba(41,27,17,0.64);
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  .tm(translate(-100px));
+  color: #fff;
+  border-radius: 8px;
+}
+.colorYellow{
+  color:#A77D61;
+}
+.content{
+  position:fixed;
+  top:0;
+  bottom:0.92rem;
+  overflow:scroll;
+  /* 增加该属性，可以增加弹性，是滑动更加顺畅 */
+  -webkit-overflow-scrolling: touch; 
+  margin:0.25rem 0.4rem 0;
+  .remind{
+    line-height: 0.4rem;
+  }
+  .question,.currency{
+    .mt(0.34rem);
+    .hc(0.4rem);
+  }
+  .shadow-bg{
+    position: relative;
+    background:url(../img/select.png);
+    background-size: 5.58rem,0.8rem;
+    .wh(5.58rem,0.8rem);
+    .mt(0.15rem);
+  }
+  select{
+    appearance:none;/*三角拿了*/
+    -moz-appearance:none;
+    position: absolute;
+    top:0;
+    left:0;
+    -webkit-appearance:none;
+    .wh(100%,0.8rem);
+    line-height: 0.8rem;
+    border:none;
+    .pl(0.24rem);
+    .bz-bb();
+    border-radius: 0.09rem;
+    background: rgba(255,255,255,0) url(../img/down.png) no-repeat right center;
+		background-size: 0.78rem 0.78rem;
+    color: #666;
+    font-size: 0.24rem;
+    option{
+      .hc(0.8rem);
+      color: #666;
+      font-size: 0.24rem;
+      box-shadow: inset 0 0 0.1rem 0 rgba(0,0,0,0.10);
+      border: none;
+    }
+  }
+  .bank-box{
+    display: none;
+  }
+  // .dollar{
+  //   .pl(0.24rem);
+  //   display: inline-block;
+  //   .wh(0.24rem,0.8rem);
+  //   line-height: 0.8rem;
+  //   color:#d8d8d8;
+  // }
+  //单选框
+  .radio{
+    padding-left: 0.4rem;
+		margin-right: 0.45rem;
+    cursor: pointer;
+		position: relative;
+		display: inline-block;
+    .hc(0.3rem);
+	}
+	.radio input {
+    position: absolute;
+    left: -9999px;
+	}
+	.radio i {
+    position: absolute;
+    top: 0.02rem;
+    left: 0;
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+    border-width: 1px;
+    border-style: solid;
+		border-color: #666;
+    background: #fff;
+		border-radius: 50%;
+	}
+	.radio input+i:after {
+	    content: '';
+	    top: 0.05rem;
+	    left: 0.05rem;
+	    width: 0.14rem;
+	    height: 0.14rem;
+	    border-radius: 50%;
+	    background-color: #fff;
+			position: absolute;
+	}
+	.radio input:checked+i {
+    border-color: #A77D61;
+	}
+	.radio input:checked+i:after{
+    background-color: #A77D61;
+	}
+  input[type="text"]{
+    .wh(100%,0.8rem);
+    line-height: 0.8rem;
+    position: absolute;
+    padding:0;
+    border: none;
+    top:0;
+    left: 0rem;
+    .pl(0.24rem);
+    .bz-bb();
+    background: rgba(255,255,255,0);
+    &::-webkit-input-placeholder {
+　　  color: #d8d8d8 !important; /* WebKit browsers */
+      .hc(0.8rem);
+　　}
+　　&:-moz-placeholder {
+　　  color: #d8d8d8 !important; /* Mozilla Firefox 4 to 18 */
+      .hc(0.8rem);
+　　}
+　　&::-moz-placeholder {
+　　  color: #d8d8d8 !important; /* Mozilla Firefox 19+ */
+      .hc(0.8rem);
+　　}
+　　&:-ms-input-placeholder {
+　　  color: #d8d8d8 !important; /* Internet Explorer 10+ */
+      .hc(0.8rem);
+　　}
+  }
+  .tip{
+    font-size: 0.2rem;
+    .hc(0.36rem);
+    .mt(0.32rem);
+  }
+}
+footer{
+  background: #A77D61;
+  .hc(0.92rem);
+  font-size: 0.34rem;
+  text-align: center;
+  position: fixed;
+  bottom:0;
+  left:0;
+  color: #fff;
+  width:100%;
+}
+// .footer-submit{
+//   position: absolute;
+// }
+.modals{
+  display: none;
+  position: absolute;
+  top: 0;
+  left:0;
+  .wh(100%,100%);
+  background-color: rgba(63,63,63,0.73);
+  .submit{
+    width:5.05rem;
+    position: absolute;
+    top:4rem;
+    left:50%;
+    .tm(translate(-50%));
+    background: #fff;
+    box-shadow: 0 0 0.1rem 0 rgba(0,0,0,0.10);
+    border-radius: 0.15rem;
+    p{
+      line-height: 0.4rem;
+      text-align: center;
+      width:3.4rem;
+      margin:auto;
+    }
+    .title{
+      font-size: 0.34rem;
+      text-align: center;
+      .mt(0.35rem);
+    }
+    .tel{
+      display: inline-block;
+      .wh(100%,0.79rem);
+      line-height: 0.79rem;
+      text-align: center;
+      color:#fff;
+      background: #A97C61;
+      .mt(0.35rem);
+      font-size: 0.32rem;
+      border-radius: 0 0 0.15rem 0.15rem;
+    }
+    .close{
+      display: inline-block;
+      background: url(../img/close.png) no-repeat;
+      background-size: 0.34rem 0.34rem;
+      .wh(0.34rem,0.34rem);
+      position: absolute;
+      top:0.14rem;
+      right:0.14rem;
+    }
+  }
+}

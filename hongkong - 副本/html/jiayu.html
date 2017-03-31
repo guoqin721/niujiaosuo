@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>生成计划书</title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.min.js" charset="utf-8"></script>
+  <script src="../js/common.js" charset="utf-8"></script>
+  <script src="../js/jiayu.js" charset="utf-8"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+
+  });
+  </script>
+</head>
+<body>
+  <section class="customerImport">
+    <div class="companyInfo">
+      产品详情
+    </div>
+    <div class="customerTitle">
+      受保人情况
+    </div>
+    <form class="" action="" method="post">
+      <ul class="companyInfoUl" id="companyInfoUl">
+        <li class="clr">
+          <div class="liLeft sex flt">
+            性别<span></span>
+          </div>
+          <div class="liRight flt">
+            <label class="radio"  for="male"><input type="radio" name="sex" class="radioSex" value="男" id="male" checked="checked"><i></i>男</label>
+            <label class="radio"  for="female"><input type="radio" name="sex" class="radioSex" id="female"value="女"><i></i>女</label>
+          </div>
+        </li>
+        <li class="clr">
+          <div class="liLeft sex flt">
+            供款年期
+          </div>
+          <div class="liRight flt">
+            <label class="radio"  for="years10"><input type="radio" name="years" class="radioYears" value="10" id="years10" checked="checked"><i></i>10年</label>
+            <label class="radio"  for="years18"><input type="radio" name="years" class="radioYears" id="years18"value="18"><i></i>18年</label>
+            <label class="radio"  for="years25"><input type="radio" name="years" class="radioYears" id="years25"value="25"><i></i>25年</label>
+          </div>
+        </li>
+        <li class="clr">
+          <div class="liLeft sex flt">
+            年龄<span></span>
+          </div>
+          <div class="liRight flt">
+            <select id="customerAge" class="age_down"><option value="20">20</option></select>
+          </div>
+        </li>
+        <li class="clr">
+          <div class="liLeft sex flt">
+            是否吸烟
+          </div>
+          <div class="liRight flt">
+            <label class="radio"  for="noSmoke"><input type="radio" name="smoke" class="radioSmoke radioSmokeN" value="非吸烟" id="noSmoke" checked="checked"><i></i>非吸烟</label>
+            <label class="radio"  for="smoke"><input type="radio" name="smoke" class="radioSmoke radioSmokeY" id="smoke"value="吸烟"><i></i>吸烟</label>
+          </div>
+        </li>
+        <li class="clr">
+          <div class="liLeft sex flt">
+            保障年限
+          </div>
+          <div class="liRight flt">
+            至100周岁
+          </div>
+        </li>
+        <li class="clr">
+          <div class="liLeft sex flt">
+            基本保额
+          </div>
+          <div class="liRight flt">
+            100,000美元
+          </div>
+        </li>
+      </ul>
+      <!-- <p class="coverageTip">*基本保额默认以$10万美元为例</p> -->
+    </form>
+    <div class = "insuranceTip">
+      <p>基本保额默认为10万美元。但您投保时可以选择任意保额。</p>
+      <p>对同样受保人和缴费年限，保额与保费基本等比例。例如你输入受保人信息后，得到25年缴费的每年保费为1000；若需要保额调为20万美元，那么25年缴纳的保费约为每年2000。金额越大，保费有微小折扣。</p>
+    </div>
+  </section>
+  <footer class="clr">
+    <div class="totalPremium flt">每年保费 $<i id="premium"></i></div>
+    <div class="doPlan frt">生成计划书</div>
+  </footer>
+
+</body>
+</html>

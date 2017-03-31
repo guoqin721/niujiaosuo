@@ -1,0 +1,371 @@
+@import "base.less";
+@bgF0:#F0F0F0;
+@blueColor:#68bdf2;
+@yellowColor:#fff1cb;
+@font28:0.28rem;
+@font24:0.24rem;
+@font36:0.36rem;
+@font18:0.18rem;
+@font16:0.16rem;
+@whiteColor:#fff;
+
+//提示框
+.waiting_box{
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgba(41,27,17,0.64);
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  .tm(translate(-100px));
+  color: #fff;
+  border-radius: 8px;
+}
+//重要声明
+html,body,.guarantee{
+  .wh(100%,100%);
+  background:  @bgF0;
+}
+.state-box{
+  background: rgba(18,18,18,0.69);
+  padding:1.32rem 0.4rem 0.78rem;
+  height: 100%;
+  .bz-bb();
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  display: block;
+  z-index: 1;
+}
+.state-title{
+  border-radius: 0.08rem 0.08rem 0 0;
+  .wh(100%,0.8rem);
+  line-height: 0.8rem;
+  background: @blueColor;
+  color: @whiteColor;
+  text-align: center;
+  font-size: @font36;
+}
+.state-context{
+  flex: 1 ;
+  padding:0 0.6rem 0.54rem;
+  background: @whiteColor;
+  font-size: @font24;
+}
+.stata-txt{
+  .pt(0.27rem);
+  letter-spacing: 1.75px;
+}
+.readed{
+  padding:0.42rem 0;
+  background: @whiteColor;
+  text-align:center;
+  font-size: 0.3rem;
+  .hc(0.3rem);
+  width: 100%;
+  color: @blueColor;
+  border-radius: 0 0 0.08rem 0.08rem;
+}
+//投保产品基本资料
+.guar-header{
+  .wh(100%,0.76rem);
+  line-height: 0.76rem;
+  background: @blueColor;
+  color:@whiteColor;
+  position: relative;
+  font-size:@font36;
+}
+.back-btn{
+  .wh(0.25rem,0.42rem);
+  position: absolute;
+  top: 0.17rem;
+  left: 0.33rem;
+}
+.next-btn{
+  position: absolute;
+  top: 0.28rem;
+  right: 0.35rem;
+  display: block;
+  font-size: @font28;
+  .hc(0.28rem);
+  color: @whiteColor;
+}
+.header-title{
+  .hc(0.76rem);
+  width: 100%;
+  text-align: center;
+}
+.guar-tip{
+  padding: 0.3rem 0.33rem 0.53rem;
+  font-size: @font24;
+  color: rgba(167,124,97,0.77);
+  letter-spacing: 0.8px;
+  background: @whiteColor;
+}
+.guar-form{
+  padding:0 0.16rem;
+  background: @whiteColor;
+}
+.guar-info-li{
+  font-size: 0.3rem;
+  .hc(0.85rem);
+  border-top: 1px solid #F0F0F0;
+}
+ul li.bTNone{
+  border: none;
+}
+.guar-info-left{
+  padding-left: 0.16rem;
+  letter-spacing: 1px;
+}
+.guar-info-right{
+  padding-right: 0.16rem;
+  border: none;
+  .hc(0.82rem);
+  font-size: 0.3rem;
+  text-align: right;
+  letter-spacing: 0.89px;
+    &::-webkit-input-placeholder {
+　　  color: #C6C6C6; /* WebKit browsers */
+　　}
+　　&:-moz-placeholder {
+　　  color: #C6C6C6; /* Mozilla Firefox 4 to 18 */
+　　}
+　　&::-moz-placeholder {
+　　  color: #C6C6C6; /* Mozilla Firefox 19+ */
+　　}
+　　&:-ms-input-placeholder {
+　　  color: #C6C6C6; /* Internet Explorer 10+ */
+　　}
+}
+.comfirm-box{
+  background: #fafafa;
+  text-align: center;
+  margin:0 -0.16rem;
+  padding:0.54rem 0 0.4rem;
+}
+.comfirm-box>input{
+  .wh(3.26rem,0.7rem);
+  line-height: 0.7rem;
+  text-align: center;
+  background: @blueColor;
+  color:@whiteColor;
+  box-shadow: 0 0 0.1rem 0 rgba(0,0,0,0.10);
+  border-radius: 0.08rem;
+  border: none;
+  font-size: @font28;
+}
+.appli-box{
+  background: #69B2F2;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
+  border-radius: 0.08rem;
+  .wh(1.73rem,0.56rem);
+  text-align: center;
+  line-height: 0.56rem;
+  .mt(0.15rem);
+  position: relative;
+
+}
+.own{
+  .ml(0.68rem);
+}
+.other{
+  .mr(0.68rem);
+}
+.appli-box input {
+  position: absolute;
+  left: -9999px;
+}
+.appli-box i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.08rem;
+  display: block;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  color: #9B9B9B;
+}
+.appli-box input:checked+i {
+  background: #69B2F2;
+  color: #fff;
+}
+//受保人资料
+.insurPer-tip{
+  padding: 0.3rem 0.33rem 0.27rem;
+}
+.select{
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  .wh(3rem,0.85rem);
+  line-height: 0.85rem;
+  direction: rtl;
+  &:invalid {
+     color: #C6C6C6;
+  }
+  option{
+    color:rgba(0,0,0,0.75);
+    width: 100%;
+    .bz-bb();
+  }
+}
+textarea.guar-info-right{
+  width: 100%;
+  padding-right: 0.16rem;
+  width: 100%;
+  padding-left: 0.36rem;
+  border: none;
+  .bz-bb();
+  text-align: left;
+  resize: none;
+}
+li.heightAuto{
+  height: auto;
+  line-height: 0.45rem;
+  padding-right:0.32rem;
+}
+.liPart{
+  margin: 0 -0.16rem;
+  border-top: 0.08rem solid @bgF0;
+  .pl(0.16rem);
+}
+.income{
+  width: 3rem;
+  .bz-bb();
+}
+
+//投保人财务状况
+.finanLi{
+
+}
+.finan-question{
+  .pl(0.16rem);
+  .pr(0.32rem);
+  color: rgba(0,0,0,0.75);
+  letter-spacing: 0.01rem;
+  line-height: 0.47rem;
+  font-size: 0.3rem;
+  .pt(0.1rem);
+  .question-tip{
+    font-size: @font24;
+    color: #ba9a85;
+    letter-spacing: 0.79px;
+  }
+}
+.finan-answer{
+  .hc(0.96rem);
+  .pl(0.16rem);
+  .pr(0.32rem);
+  text-align: right;
+  .finan-input{
+    padding:0 1rem 0 0;
+    border: none;
+    font-size: 0.3rem;
+    .hc(0.96rem);
+    display: inline-block;
+    text-align: right;
+    letter-spacing: 0.89px;
+      &::-webkit-input-placeholder {
+  　　  color: #C6C6C6; /* WebKit browsers */
+  　　}
+  　　&:-moz-placeholder {
+  　　  color: #C6C6C6; /* Mozilla Firefox 4 to 18 */
+  　　}
+  　　&::-moz-placeholder {
+  　　  color: #C6C6C6; /* Mozilla Firefox 19+ */
+  　　}
+  　　&:-ms-input-placeholder {
+  　　  color: #C6C6C6; /* Internet Explorer 10+ */
+  　　}
+  }
+  .unit{
+    color: #C6C6C6;
+    width: 0.95rem;
+    .pr(0.15rem);
+    .hc(0.96rem);
+    font-size: 0.3rem;
+    display: inline-block;
+  }
+}
+.finan-tip{
+  padding:0.2rem 0.32rem 0.2rem;
+  font-size: .24rem;
+  color: #ba9a85;
+  letter-spacing: 0.79px;
+}
+//常用通讯地址隐藏
+#postIDadress{
+  display:none;
+}
+//其他保险
+li.othInsurCont{
+  display: none;
+
+}
+//受保人健康状况
+.heal-cont{
+  display: inline-block;
+  width: 5.2rem;
+  font-size: 0.3rem;
+  letter-spacing: 0.89px;
+}
+.heal-check{
+  position: absolute;
+  display: inline-block;
+  background: url(../img/health.png) right center;
+  background-size: 0.45rem 0.45rem;
+  .wh(0.45rem,0.45rem);
+   top: 50%;
+   margin-top: -0.23rem;
+   right: 0.32rem;
+}
+.healLi{
+  position: relative;
+}
+li.healExp{
+  border-top: 0;
+  padding-right: 0;
+    textarea{
+      border-bottom: 0.01rem solid #9B9B9B ;
+      &::-webkit-input-placeholder {
+      color: #9B9B9B;
+    }
+  }
+}
+.healpr{
+  padding-right: 0.6rem;
+  text-align: left;
+}
+.illness{
+  height: 2rem;
+  color: #C6C6C6;
+  line-height: 2rem;
+  text-align: center;
+}
+.allot{
+  width: 2.8rem;
+  .bz-bb();
+}
+.moreFavo{
+  .hc(1rem);
+  text-align: center;
+  background: #fff;
+  color: #C6C6C6;
+  letter-spacing: 0.01rem;
+  font-size: 0.3rem;
+}
+.confinement{
+  .pl(0.7rem);
+}
+//预产期
+.confinementLi{
+  display: none;
+}
+//liPartInput
+.liPartInput{
+  .pr(0.32rem);
+}

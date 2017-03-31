@@ -1,0 +1,67 @@
+browserName = (function () {
+        var ua = window.navigator.userAgent.toLowerCase();
+        var browser = "";
+        if (window.ActiveXObject) {
+            browser = "IE"
+        } else {
+            if (document.getBoxObjectFor || ua.indexOf("firefox") > -1) {
+                browser = "Firefox"
+            } else {
+                if (ua.indexOf("micromessenger") > -1) {
+                    browser = "WeiXin";
+                }
+                else {
+                    if (ua.indexOf("baidu") != -1) {
+                        browser = "baidubrowser";
+                    } else {
+                        if (ua.indexOf("ucbrowser") != -1) {
+                            browser = "ucbrowser";
+                        } else {
+                            if (ua.indexOf("miuibrowser") > -1) {
+                                browser = "miuibrowser";
+                            } else {
+                                if (ua.indexOf("lbbrowser") > -1) {
+                                    browser = "lbbrowser";
+                                }
+                                else {
+                                    if (ua.indexOf("qqbrowser") > -1) {
+                                        browser = "qqbrowser";
+                                    }
+                                    else {
+                                        if (ua.indexOf("qhbrowser") > -1) {
+                                            browser = "qhbrowser";
+                                        } else {
+                                            if (ua.indexOf("hao123") > -1) {
+                                                browser = "hao123";
+                                            } else {
+                                                if (ua.indexOf("sogoumobilebrowser") > -1) {
+                                                    browser = "sogousearch";
+                                                } else {
+                                                    if (ua.indexOf("crios") > -1) {
+                                                        browser = "Crios";
+                                                    } else {
+                                                        if (ua.indexOf("chrome") > -1) {
+                                                            browser = "Chrome";
+                                                        } else {
+                                                            if (window.opera) {
+                                                                browser = "Opera";
+                                                            } else {
+                                                                if (ua.indexOf("safari") > -1) {
+                                                                    browser = "Safari";
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return browser;
+    })();

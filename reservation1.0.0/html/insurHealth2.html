@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title></title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.min.js" charset="utf-8"></script>
+  <script src="../js/common.js" charset="utf-8"></script>
+  <script src="../js/insurHealth2.js" charset="utf-8"></script>
+</head>
+<body>
+  <section class="guarantee">
+    <section class="guar-content">
+      <header class="guar-header">
+        <a href="javascript:;" class="back-btn" onClick="javascript :history.back(-1);"><img src="../img/back.png"></a>
+        <div class="header-title">
+          受保人健康声明二
+        </div>
+        <a href = "./insurHealth3.html" class="next-btn">下一步</a>
+      </header>
+      <form class="guar-form" action="" method="post" >
+        <ul>
+          <li class="guar-info-li liPart heightAuto clr">
+            <div class="guar-info-left flt">1. 您现在是否怀孕？</div>
+          </li>
+          <li class="guar-info-li bTNone clr">
+            <label class=" own  appli-box flt "  for="pregnancyY"><input type="radio" name="pregnancy"   class=" pregnancy" value="pregnancyY" id="pregnancyY" ><i>是</i></label>
+            <label class=" other  appli-box frt "  for="pregnancyN"><input type="radio" name="pregnancy"checked="checked"  class=" pregnancy" id="pregnancyN" value="pregnancyN"><i>否</i></label>
+          </li>
+          <li class="guar-info-li confinementLi clr">
+            <div class="guar-info-left flt confinement">预产期</div>
+            <input placeholder="请选择" class="guar-info-right frt" type="text" onfocus="(this.type='date')">
+          </li>
+          <li class="guar-info-li liPart heightAuto clr">
+            <div class="guar-info-left flt">2. 您曾否或将接受唐氏综合症的测试？</div>
+          </li>
+          <li class="guar-info-li bTNone clr">
+            <label class="own appli-box flt "  for="DownY"><input type="radio" name="Down" class="own Down" value="DownY" id="DownY" ><i>是</i></label>
+            <label class="other appli-box frt "  for="DownN"><input type="radio" name="Down" checked="checked" class="other Down" id="DownN" value="DownN"><i>否</i></label>
+          </li>
+          <li class="guar-info-li liPart heightAuto clr">
+            <div class="guar-info-left flt">3. 您曾否因为妇科问题而看医生，例如：两次经期间之出血、盆腔炎疾病、子宫颈部或乳房异常？</div>
+          </li>
+          <li class="guar-info-li bTNone clr">
+            <label class="own appli-box flt "  for="gynecologyY"><input type="radio" name="gynecology" class="own gynecology" value="Y" id="gynecologyY" ><i>是</i></label>
+            <label class="other appli-box frt "  for="gynecologyN"><input type="radio"checked="checked" name="gynecology" checked="checked"  class="other gynecology" id="gynecologyN" value="N"><i>否</i></label>
+          </li>
+          <li class="guar-info-li liPart heightAuto clr">
+            <div class="guar-info-left flt">4. 在过去十年内，您曾否在怀孕期间患有并发症(例如：宫外孕、弥漫性血管内凝血、糖尿病或高血压等)？</div>
+          </li>
+          <li class="guar-info-li bTNone clr">
+            <label class="own appli-box flt "  for="complicationY"><input type="radio" name="complication" class="own complication" value="Y" id="complicationY" ><i>是</i></label>
+            <label class="other appli-box frt "  for="complicationN"><input type="radio"checked="checked" name="complication" checked="checked"  class="other complication" id="complicationN" value="N"><i>否</i></label>
+          </li>
+          <li class="guar-info-li liPart heightAuto clr">
+            <div class="guar-info-left flt">5. 您曾否接受或被建议接受或打算接受乳房X光像、乳房或盆腔超声波检查、子宫颈细胞涂片检查、锥形切片检查或阴道镜检查？</div>
+          </li>
+          <li class="guar-info-li bTNone clr" style="padding-bottom:0.1rem;">
+            <label class="own appli-box flt "  for="examineY"><input type="radio" name="examine" class="own examine" value="Y" id="examineY" ><i>是</i></label>
+            <label class="other appli-box frt "  for="examineN"><input type="radio"checked="checked" name="examine" checked="checked"  class="other examine" id="examineN" value="N"><i>否</i></label>
+          </li>
+        </ul>
+      </form>
+    </section>
+  </section>
+</body>
+</html>

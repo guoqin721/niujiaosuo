@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title></title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.min.js" charset="utf-8"></script>
+  <script src="../js/common.js" charset="utf-8"></script>
+  <script src="../js/favoPerson.js" charset="utf-8"></script>
+</head>
+<body>
+  <section class="guarantee">
+    <section class="guar-content">
+      <header class="guar-header">
+        <a href="javascript:;" class="back-btn" onClick="javascript :history.back(-1);"><img src="../img/back.png"></a>
+        <div class="header-title">
+          受益人资料
+        </div>
+        <a href = "./basicInfo.html" class="next-btn">下一步</a>
+      </header>
+      <div class="guar-tip insurPer-tip">
+        即投保人指定的保险金领取人。一般与投保人、受保人为同一人或直系亲属（夫妻、父母与子女）
+      </div>
+      <form class="guar-form favoreeForm" action="" method="post" >
+        <ul>
+          <li class="guar-info-li liPart clr">
+            <div class="guar-info-left flt">受益人是否与受保人为同一人？</div>
+          </li>
+          <li class="guar-info-li bTNone clr">
+            <label class="own appli-box flt"  for="own"><input type="radio" name="favoree" class="own favoree" value="favoreeY" id="own" ><i>是</i></label>
+            <label class="other appli-box frt"  for="other"><input type="radio" name="favoree" class="other favoree" id="other" checked="checked" value="favoreeN"><i>否</i></label>
+          </li>
+          <li class="guar-info-li favoreeY clr">
+            <div class="guar-info-left flt" >姓名</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="输入姓名">
+          </li>
+          <li class="guar-info-li favoreeY clr">
+            <div class="guar-info-left flt">拼音</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="输入姓名拼音">
+          </li>
+          <li class="guar-info-li favoreeY clr">
+            <div class="guar-info-left flt">年龄</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="输入姓名拼音">
+          </li>
+          <li class="guar-info-li favoreeY clr">
+            <div class="guar-info-left flt">身份证号码</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入号码">
+          </li>
+          <li class="guar-info-li favoreeY clr">
+            <div class="guar-info-left flt">与被保人关系</div>
+            <input type="text" class="guar-info-right frt" value="" placeholder="请输入">
+          </li>
+          <li class="guar-info-li favoreeY clr">
+            <div class="guar-info-left flt">分配比率(总和100%)</div>
+            <input type="text" class="guar-info-right frt allot" value="" placeholder="请输入">
+          </li>
+        </ul>
+      </form>
+      <div class="liPart favoreeY moreFavo">
+        如受益人不只一人，请添加
+      </div>
+    </section>
+  </section>
+</body>
+</html>

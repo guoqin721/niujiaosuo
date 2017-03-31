@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="jquery.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //实际上就是新建一个iframe的生成器
+      var  createIframe=(function(){
+        var iframe;
+          return function(){
+              if(iframe){
+                  return iframe;
+                  alert(1);
+              }else{
+                  iframe = document.createElement('iframe');
+                  iframe.style.display = 'none';
+                  document.body.appendChild(iframe);
+                  return iframe;
+                  alert(2);
+              }
+          }
+      })();
+      //增加通用链接的生成,
+      var baseScheme = "znn://aa.bb:80/test?"
+      var createScheme=function(options){
+          var urlScheme=baseScheme;
+          for(var item in options){
+              urlScheme=urlScheme+item + '=' + encodeURIComponent(options[item]) + "&";
+          }
+          urlScheme = urlScheme.substring(0, urlScheme.length - 1);
+          return encodeURIComponent(urlScheme);
+      }
+      //安卓机判断是否有app没有则下载
+      var localUrl=createScheme({p:12,d:1});
+      var openApp = function(){
+          //生成你的scheme你也可以选择外部传入
+          var openIframe=createIframe();
+          //抛出你的scheme
+          openIframe.src = decodeURIComponent(localUrl);
+
+          setTimeout(function () {
+            alert('安卓机的下载链接');
+            //  window.location.href = "你的下载页面";
+          }, 500);
+          // window.onblur = function() {
+          //     clearTimeout(t);
+          // }
+      }
+      //判断手机类型
+        var isMobile = {
+          Android: function() {
+            return navigator.userAgent.match(/Android/i) ? true : false;
+          },
+          BlackBerry: function() {
+            return navigator.userAgent.match(/BlackBerry/i) ? true : false;
+          },
+          iOS: function() {
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
+          },
+          Windows: function() {
+            return navigator.userAgent.match(/IEMobile/i) ? true : false;
+          },
+          any: function() {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+          }
+      };
+      //判断浏览器类型
+      var  browserName = (function () {
+          var ua = window.navigator.userAgent.toLowerCase();
+          var browser = "";
+          if (window.ActiveXObject) {
+              browser = "IE"
+          } else {
+              if (document.getBoxObjectFor || ua.indexOf("firefox") > -1) {
+                  browser = "Firefox"
+              } else {
+                  if (ua.indexOf("micromessenger") > -1) {
+                      browser = "WeiXin";
+                  }
+                  else {
+                      if (ua.indexOf("baidu") != -1) {
+                          browser = "baidubrowser";
+                      } else {
+                          if (ua.indexOf("ucbrowser") != -1) {
+                              browser = "ucbrowser";
+                          } else {
+                              if (ua.indexOf("miuibrowser") > -1) {
+                                  browser = "miuibrowser";
+                              } else {
+                                  if (ua.indexOf("lbbrowser") > -1) {
+                                      browser = "lbbrowser";
+                                  }
+                                  else {
+                                      if (ua.indexOf("qqbrowser") > -1) {
+                                          browser = "qqbrowser";
+                                      }
+                                      else {
+                                          if (ua.indexOf("qhbrowser") > -1) {
+                                              browser = "qhbrowser";
+                                          } else {
+                                              if (ua.indexOf("hao123") > -1) {
+                                                  browser = "hao123";
+                                              } else {
+                                                  if (ua.indexOf("sogoumobilebrowser") > -1) {
+                                                      browser = "sogousearch";
+                                                  } else {
+                                                      if (ua.indexOf("crios") > -1) {
+                                                          browser = "Crios";
+                                                      } else {
+                                                          if (ua.indexOf("chrome") > -1) {
+                                                              browser = "Chrome";
+                                                          } else {
+                                                              if (window.opera) {
+                                                                  browser = "Opera";
+                                                              } else {
+                                                                  if (ua.indexOf("safari") > -1) {
+                                                                      browser = "Safari";
+                                                                  }
+                                                              }
+                                                          }
+                                                      }
+                                                  }
+                                              }
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+          return browser;
+      })();
+      console.log(browserName);
+      $('.app-href').click(function(event) {
+        var startTime = Date.now();
+        if ( browserName == 'WeiXin' || browserName == 'qqbrowser' ) {
+          window.location.href = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.fundusd.business';
+        // }else if ( browserName == 'Chrome' ) {
+        //   console.log("111",localUrl);
+        //   window.location.href = decodeURIComponent(localUrl);
+        //   console.log("222","CHROME");
+        //   setTimeout(function () {
+        //     alert("chrome,下载链接");
+        //     //  window.location.href = "你的下载页面";
+        //   }, 3000);
+        // } else if ( isMobile.iOS() ) {
+        //   window.location.href = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.fundusd.business';
+        // }
+        else {
+          openApp();
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="box">
+    <a class="app-href">下载app2</a>
+  </div>
+</body>
+</html>

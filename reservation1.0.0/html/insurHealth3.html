@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title></title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.min.js" charset="utf-8"></script>
+  <script src="../js/common.js" charset="utf-8"></script>
+  <script src="../js/insurPerson.js" charset="utf-8"></script>
+</head>
+<body>
+  <section class="guarantee">
+    <section class="guar-content">
+      <header class="guar-header">
+        <a href="javascript:;" class="back-btn" onClick="javascript :history.back(-1);"><img src="../img/back.png"></a>
+        <div class="header-title">
+          受保人健康声明三
+        </div>
+        <a href = "./favoPerson.html" class="next-btn">下一步</a>
+      </header>
+      <div class="guar-tip insurPer-tip">
+        请详细填写疾病诊断状况，准备病例记录，和近期体检报告；
+      </div>
+      <form class="guar-form" action="" method="post" >
+        <ul>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt">日期：</div>
+            <!-- <input type="date" class="guar-info-right frt" value="" placeholder="请选择"> -->
+            <input placeholder="请选择" class="guar-info-right frt healpr" type="text" onfocus="(this.type='date')">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt " >诊断结果：</div>
+            <input type="text" class="guar-info-right healpr frt" value="" placeholder="输入姓名">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt ">持续时间：</div>
+            <input type="text" class="guar-info-right healpr frt" value="" placeholder="输入姓名拼音">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt ">主治医生：</div>
+            <input type="text" class="guar-info-right healpr frt" value="" placeholder="输入姓名拼音">
+          </li>
+          <li class="guar-info-li clr">
+            <div class="guar-info-left flt " >医生姓名：</div>
+            <input type="text" class="guar-info-right healpr frt" value="" placeholder="输入姓名">
+          </li>
+          <li class="guar-info-li heightAuto clr">
+            <div class="illness">
+              点击上传病例记录或体检报告
+            </div>
+          </li>
+
+        </ul>
+      </form>
+    </section>
+  </section>
+</body>
+</html>

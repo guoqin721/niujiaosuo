@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title></title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery.min.js" charset="utf-8"></script>
+  <script src="../js/common.js" charset="utf-8"></script>
+  <script src="../js/appliPerson.js" charset="utf-8"></script>
+</head>
+<body>
+  <section class="guarantee">
+    <section class="guar-content">
+      <header class="guar-header">
+        <a href="javascript:;" class="back-btn" onClick="javascript :history.back(-1);"><img src="../img/back.png"></a>
+        <div class="header-title">
+          预约单基本资料
+        </div>
+        <a href = "./appliStaff.html" class="next-btn">下一步</a>
+      </header>
+    <form class="guar-form favoreeForm" action="" method="post" >
+      <ul>
+        <li class="guar-info-li liPart clr">
+          <div class="guar-info-left flt">请选择联系人</div>
+        </li>
+        <li class="guar-info-li bTNone clr">
+          <label class="own appli-box flt"  for="own"><input type="radio" name="linkman" class="own linkman" value="linkmanY" id="own" ><i>投保人</i></label>
+          <label class="other appli-box frt"  for="other"><input type="radio" name="linkman" class="other linkman" id="other" checked="checked" value="linkmanN"><i>受保人</i></label>
+        </li>
+        <li class="guar-info-li liPart clr">
+          <div class="guar-info-left flt">来港日期</div>
+          <input placeholder="请选择" class="guar-info-right liPartInput frt" type="text" onfocus="(this.type='date')">
+        </li>
+        <li class="guar-info-li clr">
+          <div class="guar-info-left flt">离港日期</div>
+          <input placeholder="请选择" class="guar-info-right frt" type="text" onfocus="(this.type='date')">
+        </li>
+        <li class="guar-info-li clr">
+          <div class="guar-info-left flt">预约签单日期</div>
+          <input placeholder="请选择" class="guar-info-right frt" type="text" onfocus="(this.type='date')">
+        </li>
+        <li class="guar-info-li clr">
+          <div class="guar-info-left flt">预约签单时间</div>
+          <input placeholder="请选择" class="guar-info-right frt" type="text" onfocus="(this.type='date')">
+        </li>
+        <li class="guar-info-li liPart  clr">
+          <div class="guar-info-left flt" >联系人</div>
+          <input type="text"  class="guar-info-right liPartInput frt" value="" placeholder="输入姓名">
+        </li>
+        <li class="guar-info-li  clr">
+          <div class="guar-info-left flt">联系人电话</div>
+          <input type="text"  class="guar-info-right  frt" value="" placeholder="输入姓名拼音">
+        </li>
+      </ul>
+    </form>
+    </section>
+  </section>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title></title>
+  <link rel="icon" href="../public/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../public/css/style.css">
+  <script src="../public/js/jquery.min.js" charset="utf-8"></script>
+  <script src="../public/js/common.js" charset="utf-8"></script>
+  <script src="../public/js/aia.js" charset="utf-8"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+
+  });
+  </script>
+</head>
+<body class="aia">
+  <section class="planContent">
+    <div class="logoImage">
+      <img src="../public/img/customerInfo/aia.png" alt="">
+    </div>
+    <div class="content">
+      <div class="insuranceInfo">
+        友邦加裕倍安保加强版
+      </div>
+      <div class="insuranceAdvant">
+        全港热销终身重疾险，保额增长强力抗通胀；首十年免费赠送50%保额<i class="stronger">；更有独家癌症三次赔付</i>。
+      </div>
+      <form class="" action="" method="post">
+        <ul class="companyInfoUl" id="companyInfoUl">
+          <li class="sexLi">
+            <div class="clr sexImgBox">
+              <label class="maleImgBox"  for="male"><input type="radio" name="sex" class="radioSex" value="男" id="male" checked="checked"><i class="maleImgBox"></i></label>
+              <label class="femaleImgBox"  for="female"><input type="radio" name="sex" class="radioSex" id="female"value="女"><i class="femaleImgBox"></i></label>
+            </div>
+          </li>
+          <li class="clr">
+            <div class="liLeft sex flt">
+              供款年期
+            </div>
+            <div class="liRight flt">
+              <label class="radio"  for="years10"><input type="radio" name="years" class="radioYears" value="10" id="years10" checked="checked"><i></i>10年</label>
+              <label class="radio"  for="years18"><input type="radio" name="years" class="radioYears" id="years18"value="18"><i></i>18年</label>
+              <label class="radio"  for="years25"><input type="radio" name="years" class="radioYears" id="years25"value="25"><i></i>25年</label>
+            </div>
+          </li>
+          <li class="clr">
+            <div class="liLeft sex flt">
+              年&nbsp;&nbsp;龄
+            </div>
+            <div class="liRight liRightForm flt">
+              <select id="customerAge" class="age_down"><option value="20">20</option></select>
+            </div>
+          </li>
+          <li class="clr">
+            <div class="liLeft sex flt">
+              是否吸烟
+            </div>
+            <div class="liRight flt">
+              <label class="radio"  for="noSmoke"><input type="radio" name="smoke" class="radioSmoke radioSmokeN" value="非吸烟" id="noSmoke" checked="checked"><i></i>非吸烟</label>
+              <label class="radio"  for="smoke"><input type="radio" name="smoke" class="radioSmoke radioSmokeY" id="smoke"value="吸烟"><i></i>吸烟</label>
+            </div>
+          </li>
+          <li class="clr">
+            <div class="liLeft sex flt">
+              基本保额
+            </div>
+            <div class="liRight covTipliRig flt">
+              100,000美元<i class="coverageTip"></i>
+            </div>
+          </li>
+          <li class="clr">
+            <div class="liLeft sex flt">
+              每年保费
+            </div>
+            <div class="liRight premiumLiRight flt">
+              <i id="premium"></i><i class="premiumUnit">美元</i>
+            </div>
+          </li>
+        </ul>
+        <!-- <p class="coverageTip">*基本保额默认以$10万美元为例</p> -->
+      </form>
+    </div>
+    <footer>
+      <div class="footerbox ">
+        <p class="footer1  flt">港险优势</p>
+        <p class="footer2 doPlan frt">生成计划书</p>
+      </div>
+      <div class="logo">
+        <img src="../public/img/customerInfo/logo.png" alt="">
+      </div>
+    </footer>
+  </section>
+  <div class="covTipCont">
+    <div class="insuranceTip">
+      <p>基本保额默认为10万美元。但您投保时可以选择任意保额。</p>
+      <p>对同样受保人和缴费年限，保额与保费基本等比例。例如你输入受保人信息后，得到25年缴费的每年保费为1000；若需要保额调为20万美元，那么25年缴纳的保费约为每年2000。金额越大，保费有微小折扣。</p>
+    </div>
+    <div class="close">
+      ×
+    </div>
+  </div>
+</body>
+</html>
